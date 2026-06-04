@@ -1,26 +1,23 @@
-﻿# 17. Exam Countdown BD
+﻿# Exam Countdown BD â€” Master Index
 
-This folder contains the development artifacts, specifications, and code files for **17. Exam Countdown BD**.
+Welcome to the design and development blueprint directory for **Exam Countdown BD**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
 
-## Folder Status: READY TO START (Reserve/Evaluated Idea)
+## ðŸ“‚ Documentation Directory Map
+Click on any of the sections below to navigate to the specific blueprint:
 
-### Documentation Checklist:
-- [ ] 00-START-HERE.md (Not Started)
-- [ ] 01-market-research.md (Not Started)
-- [ ] 02-product-requirements.md (Not Started)
-- [ ] 03-system-architecture.md (Not Started)
-- [ ] 04-ui-ux-spec.md (Not Started)
-- [ ] 05-monetization-plan.md (Not Started)
-- [ ] 06-play-store-aso.md (Not Started)
-- [ ] 07-implementation-plan.md (Not Started)
-- [ ] 08-database-and-storage.md (Not Started)
-- [ ] 09-api-spec.md (Not Started)
-- [ ] 10-qa-test-plan.md (Not Started)
-- [ ] 11-privacy-policy-data-safety.md (Not Started)
-- [ ] 12-developer-handoff.md (Not Started)
-- [ ] 13-ai-agent-workflow.md (Not Started)
-- [ ] 14-growth-and-iteration.md (Not Started)
-- [ ] CLAUDE.md (Not Started)
+*   [01. PRD-REQUIREMENTS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/01.PRD-REQUIREMENTS.md) â€” Feature list, user stories, and target personas.
+*   [02. UI-UX-DESIGN-SYSTEM.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/02.UI-UX-DESIGN-SYSTEM.md) â€” Accent colors, layout, and dynamic typography sets.
+*   [03. FUNCTIONAL-FLOWS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/03.FUNCTIONAL-FLOWS.md) â€” Screens, backstack routing, and user transitions.
+*   [04. TECHNICAL-ARCHITECTURE.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/04.TECHNICAL-ARCHITECTURE.md) â€” MVVM directory mappings and clean state controls.
+*   [05. DATABASE-SCHEMA.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/05.DATABASE-SCHEMA.md) â€” Room tables, DAO query blueprints, and shared keys.
+*   [06. ADMOB-MONETIZATION-MAP.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/06.ADMOB-MONETIZATION-MAP.md) â€” Ad formats, triggers, and the 180s cooldown settings.
+*   [07. ASO-PLAY-STORE-LISTING.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/07.ASO-PLAY-STORE-LISTING.md) â€” Prepared titles, descriptions, and keywords.
+*   [08. PLAY-POLICY-SAFETY.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/08.PLAY-POLICY-SAFETY.md) â€” Permission checks, data declarations, and privacy rules.
+*   [09. TESTING-ASSURANCE-PLAN.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/09.TESTING-ASSURANCE-PLAN.md) â€” Manual scenarios, edge cases, and QA steps.
+*   [10. TRANSLATIONS-LOCALIZATION.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/10.TRANSLATIONS-LOCALIZATION.md) â€” Multi-language localization and translation strings.
+*   [11. GRAPHIC-ASSETS-MANIFEST.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/11.GRAPHIC-ASSETS-MANIFEST.md) â€” Graphic dimensions, icon targets, and custom items.
+*   [12. LOGGING-ANALYTICS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/12.LOGGING-ANALYTICS.md) â€” Firebase tracker events and metrics rules.
+*   [13. BACKLOG-TASKS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/17. Exam Countdown BD/13.BACKLOG-TASKS.md) â€” The interactive checkbox backlog for progress tracking.
 
-## Next Steps
-Use the prompt library workflows to generate the documentation sets for this application when development is ready to begin.
+---
+**Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
