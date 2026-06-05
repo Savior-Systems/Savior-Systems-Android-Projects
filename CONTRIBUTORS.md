@@ -8,3 +8,4 @@ The following list details all developers, designers, and maintainers who have c
 
 ## 🛠️ Developer Contributions Ledger
 *   **Savior Systems (developer at saviorsystems.com)**
+*   **rizvee (rizveehasan at gmail.com)**
