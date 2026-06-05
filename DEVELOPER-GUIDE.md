@@ -200,6 +200,13 @@ plugins {
 }
 ```
 
+### 3.7 Project-Wide README & SOP Standards
+
+To ensure the repository is clean and easily navigable for both developers and automation tools, all per-app `README.md` files must follow these rules:
+1. **GitHub-Friendly Relative Links**: Never use absolute local file schemes (`file:///`). All links to blueprint specifications (e.g. `01.PRD-REQUIREMENTS.md`, `05.DATABASE-SCHEMA.md`) must be written as relative Markdown links (e.g. `(01.PRD-REQUIREMENTS.md)`).
+2. **Explanatory SOP Structure**: The README must act as a Standard Operating Procedure (SOP), dividing developer onboarding into clear setup stages (Clone -> Secrets -> Database -> UI/Assets -> QA Checkpoints -> Play Store Release).
+3. **Consistent Indexing**: Always provide a complete navigation menu linking to all 13 supporting documents so developers can jump directly to any sheet.
+
 ---
 
 ## 4. Architecture Rules
@@ -465,6 +472,18 @@ After an app passes **all quality gates** in the [MASTER-CHECKLIST.md](./MASTER-
 ```bash
 git tag -a v1.0.0 -m "Release v1.0.0 — Initial public release"
 git push origin v1.0.0
+```
+
+### 6.6 Auto-Updating Changelog
+
+The repository includes an automated `CHANGELOG.md` generator script. This ensures project achievements and history are tracked continuously.
+
+1. **How it works**: The script `scripts/update_changelog.py` runs automatically when a commit is made, parsing the git commit history using Conventional Commit prefixes and formatting them categorized under Features, Bug Fixes, Docs, etc.
+2. **Local Commit Integration**: A git hook is set up at `.git/hooks/pre-commit` to automatically rebuild the changelog and stage the new `CHANGELOG.md` alongside your changes on every commit.
+
+To run the changelog generator manually at any time:
+```bash
+python scripts/update_changelog.py
 ```
 
 ---

@@ -21,3 +21,12 @@ Click on any of the sections below to navigate to the specific blueprint:
 
 ---
 **Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
+
+---
+
+### 🌐 Navigation Panel
+
+| [◀ Repository Root](../README.md) | [📋 Master Checklist](../MASTER-CHECKLIST.md) | [📊 Progress Tracker](../PROGRESS.md) | [🚀 Publishing Roadmap](../PUBLISHING-ROADMAP.md) |
+|:---:|:---:|:---:|:---:|
+
+*Go to Project Directory:* **[30. Fake Call Rescue](README.md)**

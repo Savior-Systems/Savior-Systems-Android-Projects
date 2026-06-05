@@ -13,7 +13,7 @@
   <img src="https://img.shields.io/badge/Stack-Kotlin_%7C_Jetpack_Compose-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/Monetization-AdMob_SDK-FBBC04?style=flat-square&logo=google-ads&logoColor=white" />
   <img src="https://img.shields.io/badge/Design-Material_3-00695C?style=flat-square&logo=material-design&logoColor=white" />
-  <img src="https://img.shields.io/badge/Status-Research_Complete_%7C_Docs_In_Progress-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Docs_Progress_12.3%25-blue?style=flat-square" />
 </p>
 
 ---
@@ -52,6 +52,11 @@ Savior-Systems-Android-Projects/
 ├── 📄 MASTER-CHECKLIST.md                ← Pre-submission quality gate for every app
 ├── 📄 DEVELOPER-GUIDE.md                 ← Onboarding guide: environment setup, conventions, workflow
 ├── 📄 CONTRIBUTING.md                    ← Contribution standards and commit conventions
+├── 📄 CONTRIBUTORS.md                    ← List of project authors & developers (auto-updated)
+├── 📄 ACTIVITY.md                        ← Commit metrics and recent logs (auto-updated)
+├── 📄 SECURITY.md                        ← Security vulnerability disclosure policy
+├── 📄 LICENSE.md                         ← Apache 2.0 Open Source License
+├── 📄 CODE_OF_CONDUCT.md                 ← Contributor Covenant guidelines
 │
 ├── 📂 01. FocusPulse Timer/              ← Pomodoro timer (Tier-1 global)
 ├── 📂 02. BD Varsity CGPA Pro/           ← CGPA calculator (Bangladesh)
@@ -225,6 +230,13 @@ gantt
 
 ## 📊 Project Status
 
+
+<!-- PROGRESS-START -->
+### 📊 Documentation Completion: `|███░░░░░░░░░░░░░░░░░░░░░░|` (12.3%)
+*   **Total Progress**: `53/430` documentation blueprints fully completed.
+*   **Target Scope**: 10 Strategy Blueprints and 30 distinct Android apps with 14 comprehensive SOP documents each.
+*   **Detailed Status**: See [`PROGRESS.md`](PROGRESS.md) for full breakdown.
+<!-- PROGRESS-END -->
 | Milestone | Status |
 |:----------|:------:|
 | Market Research & Competitive Analysis | ✅ Complete |
@@ -259,6 +271,11 @@ gantt
 | [`MASTER-CHECKLIST.md`](MASTER-CHECKLIST.md) | Pre-submission quality gate (code, policy, ads, ASO, listing) |
 | [`DEVELOPER-GUIDE.md`](DEVELOPER-GUIDE.md) | Environment setup, conventions, workflow, testing standards |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution standards, branch naming, commit conventions |
+| [`CONTRIBUTORS.md`](CONTRIBUTORS.md) | List of project authors & developers (auto-updated) |
+| [`ACTIVITY.md`](ACTIVITY.md) | Commit metrics and recent logs (auto-updated) |
+| [`SECURITY.md`](SECURITY.md) | Security vulnerability disclosure policy |
+| [`LICENSE.md`](LICENSE.md) | Apache 2.0 Open Source License |
+| [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Contributor Covenant guidelines |
 
 ---
 
