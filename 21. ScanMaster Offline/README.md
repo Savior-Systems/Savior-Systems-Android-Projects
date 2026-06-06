@@ -1,23 +1,36 @@
-﻿# ScanMaster Offline â€” Master Index
+# ScanMaster Offline — Master Index
 
 Welcome to the design and development blueprint directory for **ScanMaster Offline**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
 
-## ðŸ“‚ Documentation Directory Map
+## 📂 Documentation Directory Map
 Click on any of the sections below to navigate to the specific blueprint:
 
-*   [01. PRD-REQUIREMENTS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/01.PRD-REQUIREMENTS.md) â€” Feature list, user stories, and target personas.
-*   [02. UI-UX-DESIGN-SYSTEM.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/02.UI-UX-DESIGN-SYSTEM.md) â€” Accent colors, layout, and dynamic typography sets.
-*   [03. FUNCTIONAL-FLOWS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/03.FUNCTIONAL-FLOWS.md) â€” Screens, backstack routing, and user transitions.
-*   [04. TECHNICAL-ARCHITECTURE.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/04.TECHNICAL-ARCHITECTURE.md) â€” MVVM directory mappings and clean state controls.
-*   [05. DATABASE-SCHEMA.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/05.DATABASE-SCHEMA.md) â€” Room tables, DAO query blueprints, and shared keys.
-*   [06. ADMOB-MONETIZATION-MAP.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/06.ADMOB-MONETIZATION-MAP.md) â€” Ad formats, triggers, and the 180s cooldown settings.
-*   [07. ASO-PLAY-STORE-LISTING.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/07.ASO-PLAY-STORE-LISTING.md) â€” Prepared titles, descriptions, and keywords.
-*   [08. PLAY-POLICY-SAFETY.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/08.PLAY-POLICY-SAFETY.md) â€” Permission checks, data declarations, and privacy rules.
-*   [09. TESTING-ASSURANCE-PLAN.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/09.TESTING-ASSURANCE-PLAN.md) â€” Manual scenarios, edge cases, and QA steps.
-*   [10. TRANSLATIONS-LOCALIZATION.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/10.TRANSLATIONS-LOCALIZATION.md) â€” Multi-language localization and translation strings.
-*   [11. GRAPHIC-ASSETS-MANIFEST.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/11.GRAPHIC-ASSETS-MANIFEST.md) â€” Graphic dimensions, icon targets, and custom items.
-*   [12. LOGGING-ANALYTICS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/12.LOGGING-ANALYTICS.md) â€” Firebase tracker events and metrics rules.
-*   [13. BACKLOG-TASKS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/21. ScanMaster Offline/13.BACKLOG-TASKS.md) â€” The interactive checkbox backlog for progress tracking.
+*   [01. PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
+*   [02. UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
+*   [03. FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/03.FUNCTIONAL-FLOWS.md) — Screens, backstack routing, and user transitions.
+*   [04. TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/04.TECHNICAL-ARCHITECTURE.md) — MVVM directory mappings and clean state controls.
+*   [05. DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/05.DATABASE-SCHEMA.md) — Room tables, DAO query blueprints, and shared keys.
+*   [06. ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/06.ADMOB-MONETIZATION-MAP.md) — Ad formats, triggers, and the 180s cooldown settings.
+*   [07. ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/07.ASO-PLAY-STORE-LISTING.md) — Prepared titles, descriptions, and keywords.
+*   [08. PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/08.PLAY-POLICY-SAFETY.md) — Permission checks, data declarations, and privacy rules.
+*   [09. TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/09.TESTING-ASSURANCE-PLAN.md) — Manual scenarios, edge cases, and QA steps.
+*   [10. TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/10.TRANSLATIONS-LOCALIZATION.md) — Multi-language localization and translation strings.
+*   [11. GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
+*   [12. LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
+*   [13. BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/21. ScanMaster Offline/13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
 
 ---
 **Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
+
+
+---
+## ☁️ GCP & Firebase API Setup & SOP
+
+### 1. Required Cloud API Category
+- **Category:** Level 1 (Telemetry, UMP Consent, and AdMob)
+- **Core APIs:** \irebase.googleapis.com\ (Free Tier)
+- **SOP Implementation:** Log ASO conversion metrics, standard analytics telemetry, and initialize UMP consent logs.\
+
+### 2. Credentials & Config Mapping
+- Place the downloaded \google-services.json\ config inside the \pp/\ directory.
+- Production credentials are dynamically configured on launch and kept out of Git repository logs.

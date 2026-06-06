@@ -1,23 +1,89 @@
-﻿# Expense Diary Local â€” Master Index
+# Expense Diary Local — Master Index
 
 Welcome to the design and development blueprint directory for **Expense Diary Local**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
 
-## ðŸ“‚ Documentation Directory Map
-Click on any of the sections below to navigate to the specific blueprint:
+---
 
-*   [01. PRD-REQUIREMENTS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/01.PRD-REQUIREMENTS.md) â€” Feature list, user stories, and target personas.
-*   [02. UI-UX-DESIGN-SYSTEM.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/02.UI-UX-DESIGN-SYSTEM.md) â€” Accent colors, layout, and dynamic typography sets.
-*   [03. FUNCTIONAL-FLOWS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/03.FUNCTIONAL-FLOWS.md) â€” Screens, backstack routing, and user transitions.
-*   [04. TECHNICAL-ARCHITECTURE.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/04.TECHNICAL-ARCHITECTURE.md) â€” MVVM directory mappings and clean state controls.
-*   [05. DATABASE-SCHEMA.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/05.DATABASE-SCHEMA.md) â€” Room tables, DAO query blueprints, and shared keys.
-*   [06. ADMOB-MONETIZATION-MAP.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/06.ADMOB-MONETIZATION-MAP.md) â€” Ad formats, triggers, and the 180s cooldown settings.
-*   [07. ASO-PLAY-STORE-LISTING.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/07.ASO-PLAY-STORE-LISTING.md) â€” Prepared titles, descriptions, and keywords.
-*   [08. PLAY-POLICY-SAFETY.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/08.PLAY-POLICY-SAFETY.md) â€” Permission checks, data declarations, and privacy rules.
-*   [09. TESTING-ASSURANCE-PLAN.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/09.TESTING-ASSURANCE-PLAN.md) â€” Manual scenarios, edge cases, and QA steps.
-*   [10. TRANSLATIONS-LOCALIZATION.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/10.TRANSLATIONS-LOCALIZATION.md) â€” Multi-language localization and translation strings.
-*   [11. GRAPHIC-ASSETS-MANIFEST.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/11.GRAPHIC-ASSETS-MANIFEST.md) â€” Graphic dimensions, icon targets, and custom items.
-*   [12. LOGGING-ANALYTICS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/12.LOGGING-ANALYTICS.md) â€” Firebase tracker events and metrics rules.
-*   [13. BACKLOG-TASKS.md](file:///C:/Users/cibdh/Desktop/Savior-Systems-Android-Projects/04. Expense Diary Local/13.BACKLOG-TASKS.md) â€” The interactive checkbox backlog for progress tracking.
+## 🎯 App Overview
+
+| Attribute | Value |
+| :--- | :--- |
+| **App Name** | Expense Diary Local |
+| **Package** | `com.saviorsystems.expensediarylocal` |
+| **Category** | Finance |
+| **Architecture** | Clean MVVM + Jetpack Compose + Room (SQLCipher) |
+| **Privacy Model** | 100% Offline-First, AES-256 Encrypted Database |
+| **Primary Color** | `#F1C40F` (Sunflower Gold) |
+| **Secondary Color** | `#7F8C8D` (Concrete Gray) |
+| **Target Keywords** | expense tracker, money manager, budget planner |
 
 ---
-**Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
+
+## 📂 Documentation Directory Map
+
+Click on any of the sections below to navigate to the specific blueprint:
+
+| # | Document | Description |
+| :--- | :--- | :--- |
+| 01 | [PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/01.PRD-REQUIREMENTS.md) | Feature list, user stories, personas, and success metrics. |
+| 02 | [UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/02.UI-UX-DESIGN-SYSTEM.md) | Gold/gray palette, typography, component tokens, and animations. |
+| 03 | [FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/03.FUNCTIONAL-FLOWS.md) | Navigation diagram, user journeys, and state management rules. |
+| 04 | [TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/04.TECHNICAL-ARCHITECTURE.md) | Full directory tree, tech stack, DI modules, and encryption flow. |
+| 05 | [DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/05.DATABASE-SCHEMA.md) | Room tables, indices, DAO queries, and DataStore preferences. |
+| 06 | [ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/06.ADMOB-MONETIZATION-MAP.md) | Ad formats, frequency caps, UX-safe zones, and revenue model. |
+| 07 | [ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, keyword strategy, and assets. |
+| 08 | [PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/08.PLAY-POLICY-SAFETY.md) | Permissions, Data Safety form, financial declaration, and policies. |
+| 09 | [TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/09.TESTING-ASSURANCE-PLAN.md) | Unit/integration/UI tests, QA checklist, and performance targets. |
+| 10 | [TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/10.TRANSLATIONS-LOCALIZATION.md) | Full strings.xml, localization targets, and RTL support rules. |
+| 11 | [GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
+| 12 | [LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/12.LOGGING-ANALYTICS.md) | 9 custom Firebase events, Crashlytics config, and privacy rules. |
+| 13 | [BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/13.BACKLOG-TASKS.md) | Phased development backlog with 50+ tasks across 6 phases. |
+
+---
+
+## 🖼️ App Icon
+
+![Expense Diary Local Icon](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/expense_diary_local_icon.png)
+
+---
+
+## 🔑 Key Differentiators
+
+| Feature | Description |
+| :--- | :--- |
+| **100% Offline** | Zero network dependency for core functionality |
+| **AES-256 Encryption** | SQLCipher-encrypted Room database with Android Keystore keys |
+| **5-Second Entry** | Streamlined FAB → keypad → category → save workflow |
+| **Budget Alerts** | Local push notifications at 80% and 100% thresholds |
+| **Visual Analytics** | Interactive donut charts and monthly trend bars (Vico) |
+| **Biometric Lock** | PIN + fingerprint/face authentication gate |
+| **Export Anywhere** | CSV, PDF, and encrypted JSON backup/restore |
+| **Privacy Screen** | Auto-blur when app enters background |
+
+---
+
+## ☁️ GCP & Firebase API Setup & SOP
+
+### 1. Required Cloud API Category
+- **Category:** Level 2 (Secure Sync & Cloud Storage backups)
+- **Core APIs:** `firebaseanalytics.googleapis.com`, `crashlytics.googleapis.com`, `admob.googleapis.com`
+- **SOP Implementation:** Firebase Analytics for anonymous telemetry, Crashlytics for crash reporting, AdMob for monetization.
+
+### 2. Credentials & Config Mapping
+- Place the downloaded `google-services.json` config inside the `app/` directory.
+- Production AdMob Unit IDs are stored in `local.properties` and injected via `buildConfigField`.
+- Production credentials are dynamically configured on launch and kept out of Git repository logs.
+
+### 3. Firebase Project
+- **Project ID:** `hopeful-breaker-426606-h9`
+- **App ID:** Registered in Firebase Console under the Savior Systems portfolio.
+- **SHA-1/SHA-256:** Debug and release keystores registered for API access.
+
+---
+
+## 📊 Status
+
+**Documentation**: ✅ Complete (14/14 files)  
+**Assets**: ✅ App icon generated  
+**Phase**: Ready for Phase 1 scaffolding  
+**Last Updated**: June 2026

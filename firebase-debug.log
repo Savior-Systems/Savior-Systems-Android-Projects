@@ -1,0 +1,714 @@
+[debug] [2026-06-06T16:47:41.113Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:47:41.119Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android FocusPulse Pomodoro Timer --package-name com.saviorsystems.productivity.focuspulsetimer --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:47:41.120Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:47:41.120Z] Platform:      win32
+[debug] [2026-06-06T16:47:41.121Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:47:41.121Z] Time:          Sat Jun 06 2026 22:47:41 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:47:41.122Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:47:41.127Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-06-06T16:47:41.338Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:47:41.680Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:47:41.693Z] No OAuth tokens found
+[debug] [2026-06-06T16:47:41.694Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:47:41.694Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"FocusPulse Pomodoro Timer","packageName":"com.saviorsystems.productivity.focuspulsetimer"}
+[debug] [2026-06-06T16:47:41.993Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-06-06T16:47:41.994Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-06-06T16:47:46.630Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:47:46.631Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:47:46.641Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:47:46.653Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:48:03.353Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:48:03.368Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android BD Varsity CGPA Calculator --package-name com.saviorsystems.education.bdvarsitycgpapro --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:48:03.371Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:48:03.372Z] Platform:      win32
+[debug] [2026-06-06T16:48:03.374Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:48:03.377Z] Time:          Sat Jun 06 2026 22:48:03 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:48:03.378Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:48:03.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:48:04.630Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:48:04.663Z] No OAuth tokens found
+[debug] [2026-06-06T16:48:04.671Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:48:04.672Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"BD Varsity CGPA Calculator","packageName":"com.saviorsystems.education.bdvarsitycgpapro"}
+[debug] [2026-06-06T16:48:05.494Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:48:05.494Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:48:05.500Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:48:05.505Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:48:22.765Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:48:22.778Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android MicroHabit Tracker Streaks --package-name com.saviorsystems.productivity.microhabittracker --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:48:22.781Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:48:22.782Z] Platform:      win32
+[debug] [2026-06-06T16:48:22.783Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:48:22.784Z] Time:          Sat Jun 06 2026 22:48:22 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:48:22.785Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:48:22.907Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:48:23.462Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:48:23.487Z] No OAuth tokens found
+[debug] [2026-06-06T16:48:23.496Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:48:23.497Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"MicroHabit Tracker Streaks","packageName":"com.saviorsystems.productivity.microhabittracker"}
+[debug] [2026-06-06T16:48:24.505Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:48:24.505Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:48:24.510Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:48:24.516Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:48:38.921Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:48:38.932Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Expense Diary Offline Log --package-name com.saviorsystems.finance.expensediarylocal --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:48:38.934Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:48:38.934Z] Platform:      win32
+[debug] [2026-06-06T16:48:38.935Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:48:38.936Z] Time:          Sat Jun 06 2026 22:48:38 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:48:38.937Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:48:39.061Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:48:39.583Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:48:39.601Z] No OAuth tokens found
+[debug] [2026-06-06T16:48:39.606Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:48:39.607Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Expense Diary Offline Log","packageName":"com.saviorsystems.finance.expensediarylocal"}
+[debug] [2026-06-06T16:48:40.035Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 429
+[debug] [2026-06-06T16:48:40.036Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":429,"message":"Quota exceeded for quota metric 'Provision requests' and limit 'Provision requests per minute per user' of service 'firebase.googleapis.com' for consumer 'project_number:764086051850'.","status":"RESOURCE_EXHAUSTED","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"RATE_LIMIT_EXCEEDED","domain":"googleapis.com","metadata":{"service":"firebase.googleapis.com","quota_metric":"firebase.googleapis.com/provision_requests","quota_location":"global","consumer":"projects/764086051850","quota_unit":"1/min/{project}/{user}","quota_limit_value":"9","quota_limit":"ProvisionPerMinutePerProjectPerUser"}},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Request a higher quota limit.","url":"https://cloud.google.com/docs/quotas/help/request_increase"}]}]}}
+[debug] [2026-06-06T16:48:40.039Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 429, Quota exceeded for quota metric 'Provision requests' and limit 'Provision requests per minute per user' of service 'firebase.googleapis.com' for consumer 'project_number:764086051850'.
+[debug] [2026-06-06T16:48:40.043Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 429, Quota exceeded for quota metric 'Provision requests' and limit 'Provision requests per minute per user' of service 'firebase.googleapis.com' for consumer 'project_number:764086051850'.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:48:51.157Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:48:51.167Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Offline Prayer Times Qibla --package-name com.saviorsystems.lifestyle.prayertimehelper --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:48:51.169Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:48:51.169Z] Platform:      win32
+[debug] [2026-06-06T16:48:51.170Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:48:51.171Z] Time:          Sat Jun 06 2026 22:48:51 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:48:51.171Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:48:51.294Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:48:51.812Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:48:51.835Z] No OAuth tokens found
+[debug] [2026-06-06T16:48:51.842Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:48:51.842Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Offline Prayer Times Qibla","packageName":"com.saviorsystems.lifestyle.prayertimehelper"}
+[debug] [2026-06-06T16:48:52.667Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:48:52.668Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:48:52.671Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:48:52.675Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:49:04.006Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:49:04.016Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Water Log & Hydro Reminder --package-name com.saviorsystems.health.waterlogremind --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:49:04.017Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:49:04.017Z] Platform:      win32
+[debug] [2026-06-06T16:49:04.018Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:49:04.021Z] Time:          Sat Jun 06 2026 22:49:04 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:49:04.021Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:49:04.145Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:49:04.648Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:49:04.667Z] No OAuth tokens found
+[debug] [2026-06-06T16:49:04.675Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:49:04.676Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Water Log & Hydro Reminder","packageName":"com.saviorsystems.health.waterlogremind"}
+[debug] [2026-06-06T16:49:05.447Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:49:05.448Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:49:05.451Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:49:05.455Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:49:32.783Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:49:32.800Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Smart Age & Bengali Date --package-name com.saviorsystems.utilities.smartagebddate --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:49:32.803Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:49:32.804Z] Platform:      win32
+[debug] [2026-06-06T16:49:32.806Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:49:32.810Z] Time:          Sat Jun 06 2026 22:49:32 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:49:32.811Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:49:33.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:49:34.480Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:49:34.511Z] No OAuth tokens found
+[debug] [2026-06-06T16:49:34.522Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:49:34.524Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Smart Age & Bengali Date","packageName":"com.saviorsystems.utilities.smartagebddate"}
+[debug] [2026-06-06T16:49:35.393Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:49:35.394Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:49:35.400Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:49:35.405Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:50:14.933Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:50:14.951Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Resume Maker PDF CV Builder --package-name com.saviorsystems.productivity.resumepdfmaker --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:50:14.955Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:50:14.956Z] Platform:      win32
+[debug] [2026-06-06T16:50:14.958Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:50:14.961Z] Time:          Sat Jun 06 2026 22:50:14 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:50:14.963Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:50:15.191Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:50:16.079Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:50:16.109Z] No OAuth tokens found
+[debug] [2026-06-06T16:50:16.125Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:50:16.126Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Resume Maker PDF CV Builder","packageName":"com.saviorsystems.productivity.resumepdfmaker"}
+[debug] [2026-06-06T16:50:16.824Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:50:16.826Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:50:16.830Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:50:16.836Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:50:35.428Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:50:35.443Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android PDF Compress Resize Offline --package-name com.saviorsystems.productivity.pdfcompresslite --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:50:35.446Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:50:35.446Z] Platform:      win32
+[debug] [2026-06-06T16:50:35.447Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:50:35.449Z] Time:          Sat Jun 06 2026 22:50:35 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:50:35.450Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:50:35.617Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:50:36.312Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:50:36.338Z] No OAuth tokens found
+[debug] [2026-06-06T16:50:36.350Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:50:36.351Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"PDF Compress Resize Offline","packageName":"com.saviorsystems.productivity.pdfcompresslite"}
+[debug] [2026-06-06T16:50:37.187Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:50:37.187Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:50:37.193Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:50:37.198Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:50:50.665Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:50:50.676Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Routine Widget Task Planner --package-name com.saviorsystems.productivity.routinewidget --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:50:50.677Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:50:50.678Z] Platform:      win32
+[debug] [2026-06-06T16:50:50.678Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:50:50.679Z] Time:          Sat Jun 06 2026 22:50:50 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:50:50.680Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:50:50.815Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:50:51.383Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:50:51.406Z] No OAuth tokens found
+[debug] [2026-06-06T16:50:51.413Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:50:51.414Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Routine Widget Task Planner","packageName":"com.saviorsystems.productivity.routinewidget"}
+[debug] [2026-06-06T16:50:52.017Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:50:52.018Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:50:52.023Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:50:52.027Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:51:05.252Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:51:05.269Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android BD Tax & VAT Calculator --package-name com.saviorsystems.finance.bdtaxvatcalc --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:51:05.271Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:51:05.271Z] Platform:      win32
+[debug] [2026-06-06T16:51:05.273Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:51:05.279Z] Time:          Sat Jun 06 2026 22:51:05 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:51:05.280Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:51:05.682Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:51:06.714Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:51:06.738Z] No OAuth tokens found
+[debug] [2026-06-06T16:51:06.747Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:51:06.748Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"BD Tax & VAT Calculator","packageName":"com.saviorsystems.finance.bdtaxvatcalc"}
+[debug] [2026-06-06T16:51:07.652Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:51:07.652Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:51:07.655Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:51:07.661Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:51:21.969Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:51:21.982Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Minimalist To-Do List Tasks --package-name com.saviorsystems.productivity.minimalisttodo --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:51:21.984Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:51:21.984Z] Platform:      win32
+[debug] [2026-06-06T16:51:21.985Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:51:21.986Z] Time:          Sat Jun 06 2026 22:51:21 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:51:21.986Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:51:22.170Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:51:22.792Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:51:22.811Z] No OAuth tokens found
+[debug] [2026-06-06T16:51:22.817Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:51:22.818Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Minimalist To-Do List Tasks","packageName":"com.saviorsystems.productivity.minimalisttodo"}
+[debug] [2026-06-06T16:51:23.655Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:51:23.656Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:51:23.663Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:51:23.668Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:51:42.277Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:51:42.287Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Fuel Mileage Log Tracker --package-name com.saviorsystems.finance.fuelmileagelog --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:51:42.289Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:51:42.289Z] Platform:      win32
+[debug] [2026-06-06T16:51:42.290Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:51:42.292Z] Time:          Sat Jun 06 2026 22:51:42 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:51:42.292Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:51:42.476Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:51:43.107Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:51:43.126Z] No OAuth tokens found
+[debug] [2026-06-06T16:51:43.134Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:51:43.134Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Fuel Mileage Log Tracker","packageName":"com.saviorsystems.finance.fuelmileagelog"}
+[debug] [2026-06-06T16:51:43.757Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:51:43.758Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:51:43.760Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:51:43.765Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:51:58.441Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:51:58.455Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android English to Bangla Vocabulary --package-name com.saviorsystems.education.englishbanglavocab --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:51:58.456Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:51:58.457Z] Platform:      win32
+[debug] [2026-06-06T16:51:58.458Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:51:58.460Z] Time:          Sat Jun 06 2026 22:51:58 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:51:58.461Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:51:58.603Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:51:59.258Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:51:59.282Z] No OAuth tokens found
+[debug] [2026-06-06T16:51:59.293Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:51:59.293Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"English to Bangla Vocabulary","packageName":"com.saviorsystems.education.englishbanglavocab"}
+[debug] [2026-06-06T16:51:59.928Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:51:59.929Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:51:59.934Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:51:59.939Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:52:23.657Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:52:23.667Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Breathing Pacer Guided --package-name com.saviorsystems.health.breathingpacer --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:52:23.670Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:52:23.671Z] Platform:      win32
+[debug] [2026-06-06T16:52:23.672Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:52:23.674Z] Time:          Sat Jun 06 2026 22:52:23 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:52:23.674Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:52:23.847Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:52:24.707Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:52:24.726Z] No OAuth tokens found
+[debug] [2026-06-06T16:52:24.733Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:52:24.733Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Breathing Pacer Guided","packageName":"com.saviorsystems.health.breathingpacer"}
+[debug] [2026-06-06T16:52:25.485Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:52:25.486Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:52:25.490Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:52:25.497Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:52:47.676Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:52:47.692Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android WiFi QR Code Generator Sharer --package-name com.saviorsystems.tools.wifiqrsharer --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:52:47.694Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:52:47.694Z] Platform:      win32
+[debug] [2026-06-06T16:52:47.695Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:52:47.698Z] Time:          Sat Jun 06 2026 22:52:47 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:52:47.699Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:52:47.887Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:52:48.607Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:52:48.626Z] No OAuth tokens found
+[debug] [2026-06-06T16:52:48.636Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:52:48.637Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"WiFi QR Code Generator Sharer","packageName":"com.saviorsystems.tools.wifiqrsharer"}
+[debug] [2026-06-06T16:52:49.461Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:52:49.461Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:52:49.464Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:52:49.471Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:53:06.037Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:53:06.053Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Exam Countdown BD Study Plan --package-name com.saviorsystems.education.examcountdownbd --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:53:06.056Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:53:06.057Z] Platform:      win32
+[debug] [2026-06-06T16:53:06.058Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:53:06.060Z] Time:          Sat Jun 06 2026 22:53:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:53:06.061Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:53:06.286Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:53:07.214Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:53:07.439Z] No OAuth tokens found
+[debug] [2026-06-06T16:53:07.448Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:53:07.453Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Exam Countdown BD Study Plan","packageName":"com.saviorsystems.education.examcountdownbd"}
+[debug] [2026-06-06T16:53:08.398Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:53:08.399Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:53:08.406Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:53:08.411Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:53:37.152Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:53:37.170Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Daily Quotes Creator Editor --package-name com.saviorsystems.art.dailyquotesmaker --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:53:37.176Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:53:37.176Z] Platform:      win32
+[debug] [2026-06-06T16:53:37.177Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:53:37.179Z] Time:          Sat Jun 06 2026 22:53:37 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:53:37.180Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:53:37.343Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:53:37.959Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:53:37.990Z] No OAuth tokens found
+[debug] [2026-06-06T16:53:37.999Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:53:38.000Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Daily Quotes Creator Editor","packageName":"com.saviorsystems.art.dailyquotesmaker"}
+[debug] [2026-06-06T16:53:38.672Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:53:38.672Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:53:38.678Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:53:38.682Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:53:59.171Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:53:59.191Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Device Info System Specs --package-name com.saviorsystems.tools.deviceinfospecs --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:53:59.194Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:53:59.197Z] Platform:      win32
+[debug] [2026-06-06T16:53:59.199Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:53:59.201Z] Time:          Sat Jun 06 2026 22:53:59 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:53:59.202Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:53:59.557Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:54:00.999Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:54:01.054Z] No OAuth tokens found
+[debug] [2026-06-06T16:54:01.062Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:54:01.064Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Device Info System Specs","packageName":"com.saviorsystems.tools.deviceinfospecs"}
+[debug] [2026-06-06T16:54:01.705Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:54:01.706Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:54:01.711Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:54:01.717Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:54:31.843Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:54:31.852Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Outfit Canvas Wardrobe Plan --package-name com.saviorsystems.lifestyle.outfitcanvas --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:54:31.854Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:54:31.854Z] Platform:      win32
+[debug] [2026-06-06T16:54:31.855Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:54:31.859Z] Time:          Sat Jun 06 2026 22:54:31 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:54:31.860Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:54:32.002Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:54:32.596Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:54:32.618Z] No OAuth tokens found
+[debug] [2026-06-06T16:54:32.628Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:54:32.629Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Outfit Canvas Wardrobe Plan","packageName":"com.saviorsystems.lifestyle.outfitcanvas"}
+[debug] [2026-06-06T16:54:33.466Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:54:33.467Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:54:33.471Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:54:33.476Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:54:47.810Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:54:47.823Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android ScanMaster Document Scanner --package-name com.saviorsystems.tools.scanmasteroffline --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:54:47.824Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:54:47.825Z] Platform:      win32
+[debug] [2026-06-06T16:54:47.825Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:54:47.826Z] Time:          Sat Jun 06 2026 22:54:47 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:54:47.827Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:54:47.974Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:54:48.507Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:54:48.528Z] No OAuth tokens found
+[debug] [2026-06-06T16:54:48.534Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:54:48.537Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"ScanMaster Document Scanner","packageName":"com.saviorsystems.tools.scanmasteroffline"}
+[debug] [2026-06-06T16:54:49.262Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:54:49.263Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:54:49.266Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:54:49.270Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:56:35.260Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:56:35.281Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Color Hex Picker Wheel --package-name com.saviorsystems.tools.colorhexpicker --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:56:35.285Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:56:35.285Z] Platform:      win32
+[debug] [2026-06-06T16:56:35.287Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:56:35.289Z] Time:          Sat Jun 06 2026 22:56:35 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:56:35.290Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:56:35.712Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:56:37.108Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:56:37.162Z] No OAuth tokens found
+[debug] [2026-06-06T16:56:37.175Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:56:37.176Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Color Hex Picker Wheel","packageName":"com.saviorsystems.tools.colorhexpicker"}
+[debug] [2026-06-06T16:56:37.977Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:56:37.978Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:56:37.983Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:56:37.990Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:57:16.399Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:57:16.417Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android BMI Calculator & BMR Tracker --package-name com.saviorsystems.health.bmibmrtracker --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:57:16.420Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:57:16.420Z] Platform:      win32
+[debug] [2026-06-06T16:57:16.422Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:57:16.426Z] Time:          Sat Jun 06 2026 22:57:16 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:57:16.427Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:57:16.917Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:57:18.598Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:57:18.640Z] No OAuth tokens found
+[debug] [2026-06-06T16:57:18.654Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:57:18.655Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"BMI Calculator & BMR Tracker","packageName":"com.saviorsystems.health.bmibmrtracker"}
+[debug] [2026-06-06T16:57:19.465Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:57:19.466Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:57:19.471Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:57:19.477Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T16:58:44.737Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T16:58:44.761Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Tip Calculator Split Bills --package-name com.saviorsystems.utilities.tipsplitpro --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T16:58:44.763Z] CLI Version:   15.19.1
+[debug] [2026-06-06T16:58:44.764Z] Platform:      win32
+[debug] [2026-06-06T16:58:44.765Z] Node Version:  v22.17.0
+[debug] [2026-06-06T16:58:44.767Z] Time:          Sat Jun 06 2026 22:58:44 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T16:58:44.769Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T16:58:45.601Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T16:58:49.291Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T16:58:49.604Z] No OAuth tokens found
+[debug] [2026-06-06T16:58:49.675Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T16:58:49.676Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Tip Calculator Split Bills","packageName":"com.saviorsystems.utilities.tipsplitpro"}
+[debug] [2026-06-06T16:58:50.954Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T16:58:50.956Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T16:58:50.961Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T16:58:50.967Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:00:15.717Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:00:15.736Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android InstaGrid Splitter 9 Grid --package-name com.saviorsystems.art.instagridsplitter --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:00:15.741Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:00:15.742Z] Platform:      win32
+[debug] [2026-06-06T17:00:15.743Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:00:15.745Z] Time:          Sat Jun 06 2026 23:00:15 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:00:15.746Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:00:16.467Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:00:18.907Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T17:00:18.986Z] No OAuth tokens found
+[debug] [2026-06-06T17:00:19.004Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T17:00:19.005Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"InstaGrid Splitter 9 Grid","packageName":"com.saviorsystems.art.instagridsplitter"}
+[debug] [2026-06-06T17:00:19.733Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T17:00:19.735Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:00:19.740Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:00:19.746Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:00:59.006Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:00:59.020Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Encrypted Password Vault --package-name com.saviorsystems.tools.offlinevaultpass --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:00:59.022Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:00:59.023Z] Platform:      win32
+[debug] [2026-06-06T17:00:59.024Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:00:59.026Z] Time:          Sat Jun 06 2026 23:00:59 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:00:59.027Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:00:59.386Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:01:01.066Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T17:01:01.091Z] No OAuth tokens found
+[debug] [2026-06-06T17:01:01.100Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T17:01:01.101Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Encrypted Password Vault","packageName":"com.saviorsystems.tools.offlinevaultpass"}
+[debug] [2026-06-06T17:01:02.027Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T17:01:02.029Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:01:02.034Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:01:02.039Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:01:22.102Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:01:22.117Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Offline Voice Note Recorder --package-name com.saviorsystems.productivity.offlinevoicenote --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:01:22.120Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:01:22.120Z] Platform:      win32
+[debug] [2026-06-06T17:01:22.122Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:01:22.124Z] Time:          Sat Jun 06 2026 23:01:22 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:01:22.125Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:01:22.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:01:23.118Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T17:01:23.145Z] No OAuth tokens found
+[debug] [2026-06-06T17:01:23.154Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T17:01:23.155Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Offline Voice Note Recorder","packageName":"com.saviorsystems.productivity.offlinevoicenote"}
+[debug] [2026-06-06T17:01:24.011Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T17:01:24.012Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:01:24.017Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:01:24.023Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:01:42.957Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:01:42.978Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Bio Status Captions Creator --package-name com.saviorsystems.entertainment.socialbiocaptions --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:01:42.986Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:01:42.987Z] Platform:      win32
+[debug] [2026-06-06T17:01:42.989Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:01:42.992Z] Time:          Sat Jun 06 2026 23:01:42 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:01:42.993Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:01:43.262Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:01:44.266Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T17:01:44.327Z] No OAuth tokens found
+[debug] [2026-06-06T17:01:44.344Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T17:01:44.345Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Bio Status Captions Creator","packageName":"com.saviorsystems.entertainment.socialbiocaptions"}
+[debug] [2026-06-06T17:01:45.263Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T17:01:45.264Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:01:45.270Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:01:45.278Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:02:06.825Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:02:06.845Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Auto Text Spammer Loop --package-name com.saviorsystems.tools.autotextspammer --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:02:06.849Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:02:06.850Z] Platform:      win32
+[debug] [2026-06-06T17:02:06.851Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:02:06.853Z] Time:          Sat Jun 06 2026 23:02:06 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:02:06.854Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:02:07.075Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:02:07.946Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T17:02:07.972Z] No OAuth tokens found
+[debug] [2026-06-06T17:02:07.985Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T17:02:07.986Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Auto Text Spammer Loop","packageName":"com.saviorsystems.tools.autotextspammer"}
+[debug] [2026-06-06T17:02:09.337Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T17:02:09.338Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:02:09.343Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:02:09.348Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:02:32.068Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:02:32.083Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:create android Fake Call Rescue Simulator --package-name com.saviorsystems.utilities.fakecallrescue --project hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:02:32.086Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:02:32.087Z] Platform:      win32
+[debug] [2026-06-06T17:02:32.088Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:02:32.091Z] Time:          Sat Jun 06 2026 23:02:32 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:02:32.092Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:02:32.265Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:02:33.052Z] Running auto auth
+[info] Create your ANDROID app in project hopeful-breaker-426606-h9:
+[debug] [2026-06-06T17:02:33.072Z] No OAuth tokens found
+[debug] [2026-06-06T17:02:33.079Z] >>> [apiv2][query] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps [none]
+[debug] [2026-06-06T17:02:33.080Z] >>> [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"displayName":"Fake Call Rescue Simulator","packageName":"com.saviorsystems.utilities.fakecallrescue"}
+[debug] [2026-06-06T17:02:33.738Z] <<< [apiv2][status] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps 404
+[debug] [2026-06-06T17:02:33.739Z] <<< [apiv2][body] POST https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:02:33.744Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:02:33.749Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9/androidApps had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to create Android app for project hopeful-breaker-426606-h9. See firebase-debug.log for more info.
+[debug] [2026-06-06T17:02:56.487Z] ----------------------------------------------------------------------
+[debug] [2026-06-06T17:02:56.501Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\bin\firebase.js apps:list --project=hopeful-breaker-426606-h9
+[debug] [2026-06-06T17:02:56.504Z] CLI Version:   15.19.1
+[debug] [2026-06-06T17:02:56.504Z] Platform:      win32
+[debug] [2026-06-06T17:02:56.506Z] Node Version:  v22.17.0
+[debug] [2026-06-06T17:02:56.508Z] Time:          Sat Jun 06 2026 23:02:56 GMT+0600 (Bangladesh Standard Time)
+[debug] [2026-06-06T17:02:56.509Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-06-06T17:02:56.685Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-06-06T17:02:57.404Z] Running auto auth
+[debug] [2026-06-06T17:02:57.423Z] No OAuth tokens found
+[debug] [2026-06-06T17:02:57.430Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9:searchApps pageSize=100
+[debug] [2026-06-06T17:02:58.034Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9:searchApps 404
+[debug] [2026-06-06T17:02:58.035Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9:searchApps {"error":{"code":404,"message":"Firebase project 633157729916 not found.","status":"NOT_FOUND"}}
+[debug] [2026-06-06T17:02:58.041Z] Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9:searchApps?pageSize=100 had HTTP Error: 404, Firebase project 633157729916 not found.
+[debug] [2026-06-06T17:02:58.046Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/hopeful-breaker-426606-h9:searchApps?pageSize=100 had HTTP Error: 404, Firebase project 633157729916 not found.
+    at responseToError (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\ADMIN\AppData\Local\npm-cache\_npx\7750544ccf494d8b\node_modules\firebase-tools\lib\apiv2.js:333:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+[error] 
+[error] Error: Failed to list Firebase apps. See firebase-debug.log for more info.
