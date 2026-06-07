@@ -15,18 +15,18 @@
 - [x] Project 10 — Routine Widget: 14/14 docs + icon ✅
 - [x] Project 11 — BD Tax & VAT Calc: 14/14 docs + icon ✅
 - [x] Project 12 — Minimalist To-Do: 14/14 docs + icon ✅
+- [x] Project 13 — Fuel Mileage Log: 14/14 docs + icon ✅
+- [x] Project 14 — English-Bangla Vocab: 14/14 docs + icon ✅
+- [x] Project 15 — Breathing Pacer: 14/14 docs + icon ✅
+- [x] Project 16 — WiFi QR Sharer: 14/14 docs + icon ✅
+- [x] Project 17 — Exam Countdown BD: 14/14 docs + icon ✅
+- [x] Project 18 — Daily Quotes Maker: 14/14 docs + icon ✅
+- [x] Project 19 — Device Info Specs: 14/14 docs + icon ✅
+- [x] Project 20 — Outfit Canvas: 14/14 docs + icon ✅
 
 ### 🔄 In Progress
 
 ### 📋 Queued (Priority Order)
-- [ ] Project 13 — Fuel Mileage Log
-- [ ] Project 14 — English-Bangla Vocab (if not already done)
-- [ ] Project 15 — Breathing Pacer
-- [ ] Project 16 — WiFi QR Sharer
-- [ ] Project 17 — Exam Countdown BD
-- [ ] Project 18 — Daily Quotes Maker
-- [ ] Project 19 — Device Info Specs
-- [ ] Project 20 — Outfit Canvas
 - [ ] Projects 21–30 — Queued for batch processing
 
 ---

@@ -1,36 +1,29 @@
 # Device Info Specs — Master Index
 
-Welcome to the design and development blueprint directory for **Device Info Specs**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
+![App Icon](device_info_icon.png)
+
+Welcome to the development blueprint directory for **Device Info Specs**.
+
+---
 
 ## 📂 Documentation Directory Map
-Click on any of the sections below to navigate to the specific blueprint:
-
-*   [01. PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
-*   [02. UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
-*   [03. FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) — Screens, backstack routing, and user transitions.
-*   [04. TECHNICAL-ARCHITECTURE.md](04.TECHNICAL-ARCHITECTURE.md) — MVVM directory mappings and clean state controls.
-*   [05. DATABASE-SCHEMA.md](05.DATABASE-SCHEMA.md) — Room tables, DAO query blueprints, and shared keys.
-*   [06. ADMOB-MONETIZATION-MAP.md](06.ADMOB-MONETIZATION-MAP.md) — Ad formats, triggers, and the 180s cooldown settings.
-*   [07. ASO-PLAY-STORE-LISTING.md](07.ASO-PLAY-STORE-LISTING.md) — Prepared titles, descriptions, and keywords.
-*   [08. PLAY-POLICY-SAFETY.md](08.PLAY-POLICY-SAFETY.md) — Permission checks, data declarations, and privacy rules.
-*   [09. TESTING-ASSURANCE-PLAN.md](09.TESTING-ASSURANCE-PLAN.md) — Manual scenarios, edge cases, and QA steps.
-*   [10. TRANSLATIONS-LOCALIZATION.md](10.TRANSLATIONS-LOCALIZATION.md) — Multi-language localization and translation strings.
-*   [11. GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
-*   [12. LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
-*   [13. BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
+*   [01.PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Personas, sensor checkers, and active ad exclusions.
+*   [02.UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Slate color schemes and readout typography scales.
+*   [03.FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) — Real-time CPU trackers and diagnostic charts.
+*   [04.TECHNICAL-ARCHITECTURE.md](04.TECHNICAL-ARCHITECTURE.md) — ViewModels and System API memory readers.
+*   [05.DATABASE-SCHEMA.md](05.DATABASE-SCHEMA.md) — Storage declarations confirming zero database needs.
+*   [06.ADMOB-MONETIZATION-MAP.md](06.ADMOB-MONETIZATION-MAP.md) — Placements and diagnostic ad triggers.
+*   [07.ASO-PLAY-STORE-LISTING.md](07.ASO-PLAY-STORE-LISTING.md) — Store descriptions and optimized search keywords.
+*   [08.PLAY-POLICY-SAFETY.md](08.PLAY-POLICY-SAFETY.md) — Safety declarations with zero permission checks.
+*   [09.TESTING-ASSURANCE-PLAN.md](09.TESTING-ASSURANCE-PLAN.md) — API parsing unit tests and QA checklists.
+*   [10.TRANSLATIONS-LOCALIZATION.md](10.TRANSLATIONS-LOCALIZATION.md) — XML localization tables.
+*   [11.GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Asset dimensions and icon layouts.
+*   [12.LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Telemetry rules without personal identifiers.
+*   [13.BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — Sprints board for code building.
 
 ---
-**Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
 
-
----
 ## ☁️ GCP & Firebase API Setup & SOP
-
-### 1. Required Cloud API Category
-- **Category:** Level 1 (Telemetry, UMP Consent, and AdMob)
-- **Core APIs:** \irebase.googleapis.com\ (Free Tier)
-- **SOP Implementation:** Log ASO conversion metrics, standard analytics telemetry, and initialize UMP consent logs.\
-
-### 2. Credentials & Config Mapping
-- Place the downloaded \google-services.json\ config inside the \pp/\ directory.
-- Production credentials are dynamically configured on launch and kept out of Git repository logs.
+*   **Category**: Level 1 (Telemetry, UMP Consent, and AdMob)
+*   **Core APIs**: `firebase.googleapis.com` (Free Tier)
+*   **SOP**: Link standard session analytics, load default configuration models, and mapping layouts.
