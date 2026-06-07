@@ -10,3 +10,8 @@
 - **Artifacts First**: For heavy planning or reporting, utilize proper system artifacts (`implementation_plan`, `walkthrough`) instead of dropping raw text into the chat.
 - **Zero Research Gaps & World-Class Documentation**: Every blueprint document must undergo deep research and analysis before generation. Documentation must be clean, highly organized, easy to navigate, and thoroughly interlinked. Technical blueprints must contain production-ready, fully-explained architectures and code structures (Kotlin, Room, Glance, etc.) so that developers can implement them immediately without skipping sections or guessing logic.
 - **High-Velocity Monetization Guardrails**: Since the goal is high-yield publishing, documentations must detail robust eCPM setups, strict Google Play policy safety checklists to prevent account bans, and clear, non-disruptive AdMob placement plans (like native listing ads and 180s interstitial cooldowns).
+- **Document Integrity & Markdown Formatting**: Do not produce malformed Markdown files. Specifically: 
+  - Never wrap multiline code blocks (like directory trees) in single backticks (`` ` ``). Always use standard triple backticks (`` ``` ``).
+  - Do not introduce `Null Bytes` (`\x00`), Byte Order Marks (BOM), or Mojibake double-encoded characters.
+  - Never generate single-byte or empty blueprint files.
+  - Always run `.\update_all_docs.ps1` to trigger `scripts/audit_workspace.py`. If the CI/CD audit fails, fix the malformed files immediately.
