@@ -87,17 +87,24 @@ Savior-Systems-Android-Projects/
 └── 📂 .claude/                           ← AI agent configuration (CLAUDE.md, rules, prompts)
 ```
 
-Each app folder (01–30) contains its own documentation suite:
+Each app folder contains its own comprehensive 14-file documentation suite:
 
 ```
 XX. App Name/
-├── 00-START-HERE.md            ← App overview, hypotheses, and key decisions
-├── 01-MARKET-RESEARCH.md       ← Competitive analysis, gap identification, ASO keywords
-├── 02-PRD.md                   ← Product Requirements Document (features, user stories)
-├── 03-SCREEN-SPECS.md          ← Screen-by-screen UI specifications
-├── 04-AD-TRIGGER-MAP.md        ← Ad placement logic, frequency caps, format selection
-├── 05-IMPLEMENTATION-PLAN.md   ← Step-by-step build plan with time estimates
-└── 06-STORE-LISTING-DRAFT.md   ← Play Store title, description, screenshots brief
+├── 01.PRD-REQUIREMENTS.md       ← Persona, user stories, features, and ad exclusions
+├── 02.UI-UX-DESIGN-SYSTEM.md     ← App-specific colors, fonts, shapes, and animations
+├── 03.FUNCTIONAL-FLOWS.md       ← Screen transition diagrams and interactive flows
+├── 04.TECHNICAL-ARCHITECTURE.md ← Package layouts, ViewModels, and core feature code samples
+├── 05.DATABASE-SCHEMA.md        ← SQLite Room structures, indices, or DataStore keys
+├── 06.ADMOB-MONETIZATION-MAP.md ← Placements, zero-ad zones, and 180s cooldown setups
+├── 07.ASO-PLAY-STORE-LISTING.md ← Metadata titles, ASO search keywords, and description copy
+├── 08.PLAY-POLICY-SAFETY.md     ← Permission declarations and data safety questionnaire
+├── 09.TESTING-ASSURANCE-PLAN.md ← Automated unit test logic and manual QA checklist tables
+├── 10.TRANSLATIONS-LOCALIZATION.md ← Core XML string resources for English, Spanish, and Bengali
+├── 11.GRAPHIC-ASSETS-MANIFEST.md ← Sizing configurations for Store listing icons and mockups
+├── 12.LOGGING-ANALYTICS.md      ← Non-PII Firebase analytics tracking setups
+├── 13.BACKLOG-TASKS.md          <-- Five phased development sprints
+└── README.md                    ← Master directory index linking all blueprints
 ```
 
 ---
@@ -112,8 +119,8 @@ flowchart LR
     B --> C["3 · Reusable\nComponents"]
     C --> D["4 · Developer\nGuide"]
     D --> E["5 · Pick Your\nApp Folder"]
-    E --> F["6 · START-HERE\n.md"]
-    F --> G["7 · Build with\nImpl. Plan"]
+    E --> F["6 · Read App\nREADME.md"]
+    F --> G["7 · Build with\nTech & Backlog"]
     G --> H["8 · Master\nChecklist ✓"]
 ```
 
@@ -124,8 +131,8 @@ flowchart LR
 | **3** | **Study the shared codebase.** Review the reusable Kotlin modules — AdManager (with 180-second interstitial cap), UMP Consent Flow, Room database templates, and Compose scaffolds. | [`REUSABLE-ANDROID-COMPONENTS.md`](REUSABLE-ANDROID-COMPONENTS.md) |
 | **4** | **Set up your environment.** Follow the developer guide for IDE configuration, SDK versions, Gradle setup, commit conventions, and testing standards. | [`DEVELOPER-GUIDE.md`](DEVELOPER-GUIDE.md) |
 | **5** | **Pick the app folder assigned to you.** Navigate to the numbered folder (e.g., `01. FocusPulse Timer/`). | App folder `01–30` |
-| **6** | **Read the app's entry point.** The `00-START-HERE.md` gives you the app summary, key hypotheses, tech decisions, and links to all sub-documents. | `XX. App Name/00-START-HERE.md` |
-| **7** | **Follow the implementation plan.** Build screen-by-screen using `05-IMPLEMENTATION-PLAN.md`. Reference the PRD, screen specs, and ad trigger map as you go. | `XX. App Name/05-IMPLEMENTATION-PLAN.md` |
+| **6** | **Read the app's entry point.** The local `README.md` gives you the index to all 13 sub-documents, personas, and visual preview of the app icon. | `XX. App Name/README.md` |
+| **7** | **Follow the technical architecture.** Build layers and components using `04.TECHNICAL-ARCHITECTURE.md` and track tasks using `13.BACKLOG-TASKS.md`. Reference other sub-documents (PRD, schema, ads map) as needed. | `XX. App Name/04.TECHNICAL-ARCHITECTURE.md` |
 | **8** | **Run the master checklist before submitting.** Every app must pass the pre-submission quality gate covering code, policy, ads, ASO, and store listing. | [`MASTER-CHECKLIST.md`](MASTER-CHECKLIST.md) |
 
 > [!IMPORTANT]
