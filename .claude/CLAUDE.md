@@ -93,7 +93,8 @@ Every app MUST have exactly 14 detailed blueprint files before implementation be
 ├── guides/
 │   ├── android-doc-generation.md          # The 14-file standard with quality gates
 │   ├── admob-implementation-standard.md   # AdMob SDK setup, UMP consent, test IDs
-│   └── firebase-integration-standard.md  # Firebase BOM, event naming, PII rules
+│   ├── firebase-integration-standard.md   # Firebase BOM, event naming, PII rules
+│   └── play-store-account-safety.md       # Account protection, spam avoidance, click policies
 │
 └── skills/
     ├── link-integrity-checker.md          # Find & fix broken file:/// links

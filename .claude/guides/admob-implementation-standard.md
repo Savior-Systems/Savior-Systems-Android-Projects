@@ -44,7 +44,7 @@ consentInfo.requestConsentInfoUpdate(activity, params, {
 - Never place banners that overlap interactive elements.
 
 ### Interstitials
-- Every app MUST define a minimum cooldown timer (typically 3–4 hours).
+- Every app MUST define a minimum cooldown timer (typically 3–4 minutes / 180s–240s).
 - NEVER show interstitials on app open.
 - NEVER show interstitials immediately after a user completes a positive action (e.g., logging water, completing a habit). Wait for a natural transition (e.g., exiting settings).
 - Pre-load the next interstitial immediately after showing one.
