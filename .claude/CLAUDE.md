@@ -119,3 +119,6 @@ Every app MUST have exactly 14 detailed blueprint files before implementation be
 4. **Automate git** — stage, commit (conventional format), and push after every milestone.
 5. **Cross-reference `context/portfolio-context.md`** before assigning colors to new apps.
 6. **Review `gotchas.md`** before modifying any code to avoid known traps.
+7. **Zero Research Gaps**: Conduct exhaustive research before building plans. Blueprints must be world-class, clean, easy to navigate, and heavily interlinked.
+8. **No Placeholders**: Do not drop simplified mockups or logic; all database, architecture, and utility structures must have production-ready code blocks so developer compilation can proceed without assumptions.
+9. **Monetization Focus**: Optimize every listing, data safety sheet, and SDK setup mapping to maximize AdMob eCPMs and ensure strict Play Store policy compliance.
