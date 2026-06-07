@@ -5,19 +5,19 @@ Welcome to the design and development blueprint directory for **BD Tax & VAT Cal
 ## 📂 Documentation Directory Map
 Click on any of the sections below to navigate to the specific blueprint:
 
-*   [01. PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
-*   [02. UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
-*   [03. FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/03.FUNCTIONAL-FLOWS.md) — Screens, backstack routing, and user transitions.
-*   [04. TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/04.TECHNICAL-ARCHITECTURE.md) — MVVM directory mappings and clean state controls.
-*   [05. DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/05.DATABASE-SCHEMA.md) — Room tables, DAO query blueprints, and shared keys.
-*   [06. ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/06.ADMOB-MONETIZATION-MAP.md) — Ad formats, triggers, and the 180s cooldown settings.
-*   [07. ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/07.ASO-PLAY-STORE-LISTING.md) — Prepared titles, descriptions, and keywords.
-*   [08. PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/08.PLAY-POLICY-SAFETY.md) — Permission checks, data declarations, and privacy rules.
-*   [09. TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/09.TESTING-ASSURANCE-PLAN.md) — Manual scenarios, edge cases, and QA steps.
-*   [10. TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/10.TRANSLATIONS-LOCALIZATION.md) — Multi-language localization and translation strings.
-*   [11. GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
-*   [12. LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
-*   [13. BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/11. BD Tax & VAT Calc/13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
+*   [01. PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
+*   [02. UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
+*   [03. FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) — Screens, backstack routing, and user transitions.
+*   [04. TECHNICAL-ARCHITECTURE.md](04.TECHNICAL-ARCHITECTURE.md) — MVVM directory mappings and clean state controls.
+*   [05. DATABASE-SCHEMA.md](05.DATABASE-SCHEMA.md) — Room tables, DAO query blueprints, and shared keys.
+*   [06. ADMOB-MONETIZATION-MAP.md](06.ADMOB-MONETIZATION-MAP.md) — Ad formats, triggers, and the 180s cooldown settings.
+*   [07. ASO-PLAY-STORE-LISTING.md](07.ASO-PLAY-STORE-LISTING.md) — Prepared titles, descriptions, and keywords.
+*   [08. PLAY-POLICY-SAFETY.md](08.PLAY-POLICY-SAFETY.md) — Permission checks, data declarations, and privacy rules.
+*   [09. TESTING-ASSURANCE-PLAN.md](09.TESTING-ASSURANCE-PLAN.md) — Manual scenarios, edge cases, and QA steps.
+*   [10. TRANSLATIONS-LOCALIZATION.md](10.TRANSLATIONS-LOCALIZATION.md) — Multi-language localization and translation strings.
+*   [11. GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
+*   [12. LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
+*   [13. BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
 
 ---
 **Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.

@@ -25,25 +25,25 @@ Click on any of the sections below to navigate to the specific blueprint:
 
 | # | Document | Description |
 | :--- | :--- | :--- |
-| 01 | [PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/01.PRD-REQUIREMENTS.md) | Smart goals, widget-first logging, interval reminders, and KPIs. |
-| 02 | [UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/02.UI-UX-DESIGN-SYSTEM.md) | Aqua Blue palette, rounded typography, and fluid wave animations. |
-| 03 | [FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/03.FUNCTIONAL-FLOWS.md) | Goal onboarding, Glance widget architecture, and streak reset logic. |
-| 04 | [TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/04.TECHNICAL-ARCHITECTURE.md) | MVVM tree, Goal Calculator logic, dual WorkManager/AlarmManager strategy. |
-| 05 | [DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/05.DATABASE-SCHEMA.md) | Room tables for intake logs, DataStore for user profile and quiet hours. |
-| 06 | [ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/06.ADMOB-MONETIZATION-MAP.md) | Passive banners, gated interstitials avoiding micro-interaction disruption. |
-| 07 | [ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, and keyword matrix optimized for Tier-1. |
-| 08 | [PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/08.PLAY-POLICY-SAFETY.md) | Health App declarations, Data Safety form, and Alarm permission rationale. |
-| 09 | [TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/09.TESTING-ASSURANCE-PLAN.md) | Unit tests for goal calculators, Jetpack Glance widget testing, Doze mode QA. |
-| 10 | [TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/10.TRANSLATIONS-LOCALIZATION.md) | Base strings.xml, EU targets (ES/FR/DE), logic for ML to OZ conversions. |
-| 11 | [GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, widget-focused screenshots, and onboarding illustrations. |
-| 12 | [LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/12.LOGGING-ANALYTICS.md) | Widget vs in-app usage events, strict rules avoiding exact weight/gender data. |
-| 13 | [BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/13.BACKLOG-TASKS.md) | Phased development backlog from Room setup to Widget integration. |
+| 01 | [PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) | Smart goals, widget-first logging, interval reminders, and KPIs. |
+| 02 | [UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) | Aqua Blue palette, rounded typography, and fluid wave animations. |
+| 03 | [FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) | Goal onboarding, Glance widget architecture, and streak reset logic. |
+| 04 | [TECHNICAL-ARCHITECTURE.md](04.TECHNICAL-ARCHITECTURE.md) | MVVM tree, Goal Calculator logic, dual WorkManager/AlarmManager strategy. |
+| 05 | [DATABASE-SCHEMA.md](05.DATABASE-SCHEMA.md) | Room tables for intake logs, DataStore for user profile and quiet hours. |
+| 06 | [ADMOB-MONETIZATION-MAP.md](06.ADMOB-MONETIZATION-MAP.md) | Passive banners, gated interstitials avoiding micro-interaction disruption. |
+| 07 | [ASO-PLAY-STORE-LISTING.md](07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, and keyword matrix optimized for Tier-1. |
+| 08 | [PLAY-POLICY-SAFETY.md](08.PLAY-POLICY-SAFETY.md) | Health App declarations, Data Safety form, and Alarm permission rationale. |
+| 09 | [TESTING-ASSURANCE-PLAN.md](09.TESTING-ASSURANCE-PLAN.md) | Unit tests for goal calculators, Jetpack Glance widget testing, Doze mode QA. |
+| 10 | [TRANSLATIONS-LOCALIZATION.md](10.TRANSLATIONS-LOCALIZATION.md) | Base strings.xml, EU targets (ES/FR/DE), logic for ML to OZ conversions. |
+| 11 | [GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, widget-focused screenshots, and onboarding illustrations. |
+| 12 | [LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) | Widget vs in-app usage events, strict rules avoiding exact weight/gender data. |
+| 13 | [BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) | Phased development backlog from Room setup to Widget integration. |
 
 ---
 
 ## 🖼️ App Icon
 
-![Water Log & Remind Icon](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/water_tracker_icon.png)
+![Water Log & Remind Icon](water_tracker_icon.png)
 
 ---
 

@@ -25,25 +25,25 @@ Click on any of the sections below to navigate to the specific blueprint:
 
 | # | Document | Description |
 | :--- | :--- | :--- |
-| 01 | [PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/01.PRD-REQUIREMENTS.md) | Feature list, personas, and success metrics (focus on South Asia). |
-| 02 | [UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/02.UI-UX-DESIGN-SYSTEM.md) | Emerald/Midnight palette, Outfit font, compass animations. |
-| 03 | [FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/03.FUNCTIONAL-FLOWS.md) | Location setup gate, compass calibration, midnight rollover state. |
-| 04 | [TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/04.TECHNICAL-ARCHITECTURE.md) | MVVM tree, Adhan library engine, AlarmManager background reliability. |
-| 05 | [DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/05.DATABASE-SCHEMA.md) | Room cache for timings, DataStore for calculation methods. |
-| 06 | [ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/06.ADMOB-MONETIZATION-MAP.md) | Banner placements, strict 4-hour interstitial cap, zero-ad zones. |
-| 07 | [ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, keyword matrix, and screenshot specs. |
-| 08 | [PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/08.PLAY-POLICY-SAFETY.md) | Permissions audit, background location avoidance, Data Safety form. |
-| 09 | [TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/09.TESTING-ASSURANCE-PLAN.md) | Unit tests for calculation, compass sensor tests, Doze mode QA. |
-| 10 | [TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/10.TRANSLATIONS-LOCALIZATION.md) | Base strings.xml, Bengali/Hindi/Urdu targets, RTL rules. |
-| 11 | [GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
-| 12 | [LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/12.LOGGING-ANALYTICS.md) | Custom Firebase events, screen tracking, strict PII-free rules. |
-| 13 | [BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/13.BACKLOG-TASKS.md) | Phased development backlog across 7 phases + V2 enhancements. |
+| 01 | [PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) | Feature list, personas, and success metrics (focus on South Asia). |
+| 02 | [UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) | Emerald/Midnight palette, Outfit font, compass animations. |
+| 03 | [FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) | Location setup gate, compass calibration, midnight rollover state. |
+| 04 | [TECHNICAL-ARCHITECTURE.md](04.TECHNICAL-ARCHITECTURE.md) | MVVM tree, Adhan library engine, AlarmManager background reliability. |
+| 05 | [DATABASE-SCHEMA.md](05.DATABASE-SCHEMA.md) | Room cache for timings, DataStore for calculation methods. |
+| 06 | [ADMOB-MONETIZATION-MAP.md](06.ADMOB-MONETIZATION-MAP.md) | Banner placements, strict 4-hour interstitial cap, zero-ad zones. |
+| 07 | [ASO-PLAY-STORE-LISTING.md](07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, keyword matrix, and screenshot specs. |
+| 08 | [PLAY-POLICY-SAFETY.md](08.PLAY-POLICY-SAFETY.md) | Permissions audit, background location avoidance, Data Safety form. |
+| 09 | [TESTING-ASSURANCE-PLAN.md](09.TESTING-ASSURANCE-PLAN.md) | Unit tests for calculation, compass sensor tests, Doze mode QA. |
+| 10 | [TRANSLATIONS-LOCALIZATION.md](10.TRANSLATIONS-LOCALIZATION.md) | Base strings.xml, Bengali/Hindi/Urdu targets, RTL rules. |
+| 11 | [GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
+| 12 | [LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) | Custom Firebase events, screen tracking, strict PII-free rules. |
+| 13 | [BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) | Phased development backlog across 7 phases + V2 enhancements. |
 
 ---
 
 ## 🖼️ App Icon
 
-![Prayer Time Helper Icon](file:///f:/Savior-Systems-Android-Projects/05.%20Prayer%20Time%20Helper/prayer_time_helper_icon.png)
+![Prayer Time Helper Icon](prayer_time_helper_icon.png)
 
 ---
 

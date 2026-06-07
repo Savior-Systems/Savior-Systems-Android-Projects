@@ -25,25 +25,25 @@ Click on any of the sections below to navigate to the specific blueprint:
 
 | # | Document | Description |
 | :--- | :--- | :--- |
-| 01 | [PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/01.PRD-REQUIREMENTS.md) | Feature list, user stories, personas, and success metrics. |
-| 02 | [UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/02.UI-UX-DESIGN-SYSTEM.md) | Gold/gray palette, typography, component tokens, and animations. |
-| 03 | [FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/03.FUNCTIONAL-FLOWS.md) | Navigation diagram, user journeys, and state management rules. |
-| 04 | [TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/04.TECHNICAL-ARCHITECTURE.md) | Full directory tree, tech stack, DI modules, and encryption flow. |
-| 05 | [DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/05.DATABASE-SCHEMA.md) | Room tables, indices, DAO queries, and DataStore preferences. |
-| 06 | [ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/06.ADMOB-MONETIZATION-MAP.md) | Ad formats, frequency caps, UX-safe zones, and revenue model. |
-| 07 | [ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, keyword strategy, and assets. |
-| 08 | [PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/08.PLAY-POLICY-SAFETY.md) | Permissions, Data Safety form, financial declaration, and policies. |
-| 09 | [TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/09.TESTING-ASSURANCE-PLAN.md) | Unit/integration/UI tests, QA checklist, and performance targets. |
-| 10 | [TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/10.TRANSLATIONS-LOCALIZATION.md) | Full strings.xml, localization targets, and RTL support rules. |
-| 11 | [GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
-| 12 | [LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/12.LOGGING-ANALYTICS.md) | 9 custom Firebase events, Crashlytics config, and privacy rules. |
-| 13 | [BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/13.BACKLOG-TASKS.md) | Phased development backlog with 50+ tasks across 6 phases. |
+| 01 | [PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) | Feature list, user stories, personas, and success metrics. |
+| 02 | [UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) | Gold/gray palette, typography, component tokens, and animations. |
+| 03 | [FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) | Navigation diagram, user journeys, and state management rules. |
+| 04 | [TECHNICAL-ARCHITECTURE.md](04.TECHNICAL-ARCHITECTURE.md) | Full directory tree, tech stack, DI modules, and encryption flow. |
+| 05 | [DATABASE-SCHEMA.md](05.DATABASE-SCHEMA.md) | Room tables, indices, DAO queries, and DataStore preferences. |
+| 06 | [ADMOB-MONETIZATION-MAP.md](06.ADMOB-MONETIZATION-MAP.md) | Ad formats, frequency caps, UX-safe zones, and revenue model. |
+| 07 | [ASO-PLAY-STORE-LISTING.md](07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, keyword strategy, and assets. |
+| 08 | [PLAY-POLICY-SAFETY.md](08.PLAY-POLICY-SAFETY.md) | Permissions, Data Safety form, financial declaration, and policies. |
+| 09 | [TESTING-ASSURANCE-PLAN.md](09.TESTING-ASSURANCE-PLAN.md) | Unit/integration/UI tests, QA checklist, and performance targets. |
+| 10 | [TRANSLATIONS-LOCALIZATION.md](10.TRANSLATIONS-LOCALIZATION.md) | Full strings.xml, localization targets, and RTL support rules. |
+| 11 | [GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
+| 12 | [LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) | 9 custom Firebase events, Crashlytics config, and privacy rules. |
+| 13 | [BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) | Phased development backlog with 50+ tasks across 6 phases. |
 
 ---
 
 ## 🖼️ App Icon
 
-![Expense Diary Local Icon](file:///f:/Savior-Systems-Android-Projects/04.%20Expense%20Diary%20Local/expense_diary_local_icon.png)
+![Expense Diary Local Icon](expense_diary_local_icon.png)
 
 ---
 
