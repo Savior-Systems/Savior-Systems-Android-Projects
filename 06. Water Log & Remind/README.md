@@ -2,35 +2,84 @@
 
 Welcome to the design and development blueprint directory for **Water Log & Remind**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
 
+---
+
+## 🎯 App Overview
+
+| Attribute | Value |
+| :--- | :--- |
+| **App Name** | Water Tracker & Reminder |
+| **Package** | `com.saviorsystems.waterlogremind` |
+| **Category** | Health & Fitness |
+| **Architecture** | Clean MVVM + Jetpack Compose + Room + Jetpack Glance |
+| **Privacy Model** | 100% Offline, Zero Cloud Sync, Local DataStore only |
+| **Primary Color** | `#0288D1` (Clear Ocean Blue) |
+| **Secondary Color** | `#0097A7` (Teal / Cyan) |
+| **Target Keywords** | water tracker, drink water reminder, hydration app, water widget |
+
+---
+
 ## 📂 Documentation Directory Map
+
 Click on any of the sections below to navigate to the specific blueprint:
 
-*   [01. PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
-*   [02. UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
-*   [03. FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/03.FUNCTIONAL-FLOWS.md) — Screens, backstack routing, and user transitions.
-*   [04. TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/04.TECHNICAL-ARCHITECTURE.md) — MVVM directory mappings and clean state controls.
-*   [05. DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/05.DATABASE-SCHEMA.md) — Room tables, DAO query blueprints, and shared keys.
-*   [06. ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/06.ADMOB-MONETIZATION-MAP.md) — Ad formats, triggers, and the 180s cooldown settings.
-*   [07. ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/07.ASO-PLAY-STORE-LISTING.md) — Prepared titles, descriptions, and keywords.
-*   [08. PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/08.PLAY-POLICY-SAFETY.md) — Permission checks, data declarations, and privacy rules.
-*   [09. TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/09.TESTING-ASSURANCE-PLAN.md) — Manual scenarios, edge cases, and QA steps.
-*   [10. TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/10.TRANSLATIONS-LOCALIZATION.md) — Multi-language localization and translation strings.
-*   [11. GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
-*   [12. LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
-*   [13. BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/06. Water Log & Remind/13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
+| # | Document | Description |
+| :--- | :--- | :--- |
+| 01 | [PRD-REQUIREMENTS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/01.PRD-REQUIREMENTS.md) | Smart goals, widget-first logging, interval reminders, and KPIs. |
+| 02 | [UI-UX-DESIGN-SYSTEM.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/02.UI-UX-DESIGN-SYSTEM.md) | Aqua Blue palette, rounded typography, and fluid wave animations. |
+| 03 | [FUNCTIONAL-FLOWS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/03.FUNCTIONAL-FLOWS.md) | Goal onboarding, Glance widget architecture, and streak reset logic. |
+| 04 | [TECHNICAL-ARCHITECTURE.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/04.TECHNICAL-ARCHITECTURE.md) | MVVM tree, Goal Calculator logic, dual WorkManager/AlarmManager strategy. |
+| 05 | [DATABASE-SCHEMA.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/05.DATABASE-SCHEMA.md) | Room tables for intake logs, DataStore for user profile and quiet hours. |
+| 06 | [ADMOB-MONETIZATION-MAP.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/06.ADMOB-MONETIZATION-MAP.md) | Passive banners, gated interstitials avoiding micro-interaction disruption. |
+| 07 | [ASO-PLAY-STORE-LISTING.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/07.ASO-PLAY-STORE-LISTING.md) | Store title, full description, and keyword matrix optimized for Tier-1. |
+| 08 | [PLAY-POLICY-SAFETY.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/08.PLAY-POLICY-SAFETY.md) | Health App declarations, Data Safety form, and Alarm permission rationale. |
+| 09 | [TESTING-ASSURANCE-PLAN.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/09.TESTING-ASSURANCE-PLAN.md) | Unit tests for goal calculators, Jetpack Glance widget testing, Doze mode QA. |
+| 10 | [TRANSLATIONS-LOCALIZATION.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/10.TRANSLATIONS-LOCALIZATION.md) | Base strings.xml, EU targets (ES/FR/DE), logic for ML to OZ conversions. |
+| 11 | [GRAPHIC-ASSETS-MANIFEST.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, widget-focused screenshots, and onboarding illustrations. |
+| 12 | [LOGGING-ANALYTICS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/12.LOGGING-ANALYTICS.md) | Widget vs in-app usage events, strict rules avoiding exact weight/gender data. |
+| 13 | [BACKLOG-TASKS.md](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/13.BACKLOG-TASKS.md) | Phased development backlog from Room setup to Widget integration. |
 
 ---
-**Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
 
+## 🖼️ App Icon
+
+![Water Log & Remind Icon](file:///f:/Savior-Systems-Android-Projects/06.%20Water%20Log%20&%20Remind/water_tracker_icon.png)
 
 ---
+
+## 🔑 Key Differentiators
+
+| Feature | Description |
+| :--- | :--- |
+| **Widget-First Logging** | Users log intake directly from the home screen using Jetpack Glance widgets. |
+| **Fluid UI Animations** | A beautiful, reactive sine-wave animation that physically fills the screen as users log water. |
+| **Smart Hydration Engine** | Calculates precise ml goals based on weight, gender, activity level, and climate. |
+| **Beverage Multipliers** | Accurately tracks hydration across Coffee, Tea, and Juice, not just plain water. |
+| **Respectful Reminders** | Interval-based notifications that automatically pause during user-defined "Sleep Hours". |
+| **Zero Account Wall** | 100% offline and private. No sign-up required to use the app. |
+
+---
+
 ## ☁️ GCP & Firebase API Setup & SOP
 
 ### 1. Required Cloud API Category
-- **Category:** Level 1 (Telemetry, UMP Consent, and AdMob)
-- **Core APIs:** \irebase.googleapis.com\ (Free Tier)
-- **SOP Implementation:** Log ASO conversion metrics, standard analytics telemetry, and initialize UMP consent logs.\
+- **Category:** Level 1 (Telemetry & Monetization)
+- **Core APIs:** `firebaseanalytics.googleapis.com`, `crashlytics.googleapis.com`, `admob.googleapis.com`
+- **SOP Implementation:** Firebase for tracking widget vs. app engagement, Crashlytics for background widget stability, AdMob for non-intrusive revenue.
 
 ### 2. Credentials & Config Mapping
-- Place the downloaded \google-services.json\ config inside the \pp/\ directory.
-- Production credentials are dynamically configured on launch and kept out of Git repository logs.
+- Place the downloaded `google-services.json` config inside the `app/` directory.
+- Production AdMob Unit IDs are stored in `local.properties`.
+
+### 3. Firebase Project
+- **Project ID:** `hopeful-breaker-426606-h9`
+- **App ID:** Registered in Firebase Console under the Savior Systems portfolio.
+
+---
+
+## 📊 Status
+
+**Documentation**: ✅ Complete (14/14 files)  
+**Assets**: ✅ App icon generated  
+**Phase**: Ready for Phase 1 scaffolding  
+**Last Updated**: June 2026
