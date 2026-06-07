@@ -1,12 +1,12 @@
-﻿# Report Summary for AI Agents
+# Report Summary for AI Agents
 
 ## Main Monetization Insights
-*   **eCPM Yields**: Tier-1 regions yield .00â€“.00+ for full-screen formats (Interstitial & Rewarded). South Asian markets yield .20â€“.00 but make up for it via organic volume.
+*   **eCPM Yields**: Tier-1 regions yield .00”“.00+ for full-screen formats (Interstitial & Rewarded). South Asian markets yield .20”“.00 but make up for it via organic volume.
 *   **Ad Formats**:
-    *   **App Open Ads**: High yield (.00â€“.00+ in Tier-1), shown on app start and resume.
-    *   **Adaptive Banners**: Persistent baseline revenue (.50â€“.50).
+    *   **App Open Ads**: High yield (.00”“.00+ in Tier-1), shown on app start and resume.
+    *   **Adaptive Banners**: Persistent baseline revenue (.50”“.50).
     *   **Interstitials**: Critical triggers, but requires a hard 180s cap to prevent invalid traffic restrictions.
-    *   **Rewarded Video**: High eCPMs (.00â€“.00+). Gates high-value features.
+    *   **Rewarded Video**: High eCPMs (.00”“.00+). Gates high-value features.
 
 ## Best Target Markets & Categories
 *   **Target Markets**: US, UK, CA, AU, JP, DE, Nordics (70% weight); Bangladesh, India (30% weight).

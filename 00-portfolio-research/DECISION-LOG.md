@@ -1,4 +1,4 @@
-﻿# Strategy Decision Log
+# Strategy Decision Log
 
 ## Initial Decisions Locked
 1.  **Architecture**: Clean MVVM with Compose + Material 3 + Room.
