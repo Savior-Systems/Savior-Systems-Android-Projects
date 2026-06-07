@@ -10,14 +10,14 @@
 - [x] Project 05 — Prayer Time Helper: 14/14 docs + icon ✅
 - [x] Project 06 — Water Log & Remind: 14/14 docs + icon ✅
 - [x] Project 07 — Smart Age & BD Date: 14/14 docs + icon ✅
+- [x] Project 08 — Resume PDF Maker: 14/14 docs + icon ✅
+- [x] Project 09 — PDF Compress Lite: 14/14 docs + icon ✅
+- [x] Project 10 — Routine Widget: 14/14 docs + icon ✅
 
 ### 🔄 In Progress
-- [ ] Project 08 — Resume PDF Maker: Deep research → blueprint generation
+- [ ] Project 11 — BD Tax & VAT Calc: Deep research → blueprint generation
 
 ### 📋 Queued (Priority Order)
-- [ ] Project 09 — PDF Compress Lite
-- [ ] Project 10 — Routine Widget
-- [ ] Project 11 — BD Tax & VAT Calc
 - [ ] Project 12 — Minimalist To-Do
 - [ ] Project 13 — Fuel Mileage Log
 - [ ] Project 14 — English-Bangla Vocab (if not already done)
