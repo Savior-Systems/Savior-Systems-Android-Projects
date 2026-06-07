@@ -1,6 +1,15 @@
 # Savior Systems: Master Submission Checklist
 
-This is the ultimate pre-flight quality check that every app in our portfolio must pass before it is pushed to the Google Play Console for internal testing, closed testing, or production.
+This is the pre-flight quality check that every app in our portfolio must pass before it is pushed to the Google Play Console for internal testing, closed testing, or production tracks.
+
+---
+
+## 📂 Navigation Index
+Before submitting an application, refer to:
+*   [Main README](README.md) — Master listing and roadmap of the 30-app portfolio.
+*   [Developer Guide](DEVELOPER-GUIDE.md) — Technical tech stack specifications and guidelines.
+*   [Contributing Guidelines](CONTRIBUTING.md) — Conventional Commits rules and Git workflows.
+*   [AI Agent Operating System](AI-AGENT-OPERATING-SYSTEM.md) — Guidelines for AI developers.
 
 ---
 

@@ -1,7 +1,16 @@
 # 🛠️ Developer Guide — Savior Systems Android Portfolio
 
 > **Audience:** You — the Android developer building every app in this portfolio.
-> **Last Updated:** June 4, 2026
+> **Last Updated:** June 7, 2026
+
+---
+
+## 📂 Navigation Index
+Before coding, ensure you have reviewed:
+*   [Main README](README.md) — Portfolio-level overview and list of projects.
+*   [Contributing Guidelines](CONTRIBUTING.md) — Git workflow conventions and commit standards.
+*   [Master Submission Checklist](MASTER-CHECKLIST.md) — Requirements every app must pass.
+*   [AI Agent Operating System](AI-AGENT-OPERATING-SYSTEM.md) — Conventions and guidelines for AI coding assistants.
 
 ---
 
