@@ -43,3 +43,7 @@ Common traps and their solutions. Every agent MUST review this file before modif
 ## 10. Play Store "Spam" Rejection for Similar Apps
 - **Trap**: Publishing multiple apps with identical UI templates, color schemes, and boilerplate descriptions triggers Google's "Repetitive Content / Spam" policy.
 - **Fix**: Every app MUST have a unique primary color palette, unique app icon design language, and a fully original store description. Cross-reference `02.UI-UX-DESIGN-SYSTEM.md` across apps to prevent overlap.
+
+## 11. Global Regex Replacements & Markdown Corruption
+- **Trap**: Running global python/bash scripts using loose or unanchored Regular Expressions (e.g., trying to fix missing backticks via regex) across the entire workspace can unintentionally match valid blank lines or partial lines, injecting garbage characters (like \`\`\`) and permanently corrupting hundreds of markdown files simultaneously.
+- **Fix**: NEVER run a global regex string replacement script on the whole repository without explicitly anchoring it, validating it on a dry-run, and reviewing the exact diff. If you only need to fix a few specific formatting errors, use specific tools (like `multi_replace_file_content`) on those specific files manually. Never automate workspace-wide formatting corrections unless explicitly ordered to.

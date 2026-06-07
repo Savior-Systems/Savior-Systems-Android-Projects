@@ -14,4 +14,5 @@
   - Never wrap multiline code blocks (like directory trees) in single backticks (`` ` ``). Always use standard triple backticks (`` ``` ``).
   - Do not introduce `Null Bytes` (`\x00`), Byte Order Marks (BOM), or Mojibake double-encoded characters.
   - Never generate single-byte or empty blueprint files.
+  - Never execute global regex search-and-replace scripts across the entire workspace to fix minor formatting issues, as it causes severe corruption. Use targeted fixes instead.
   - Always run `.\update_all_docs.ps1` to trigger `scripts/audit_workspace.py`. If the CI/CD audit fails, fix the malformed files immediately.
