@@ -13,12 +13,12 @@
 - [x] Project 08 — Resume PDF Maker: 14/14 docs + icon ✅
 - [x] Project 09 — PDF Compress Lite: 14/14 docs + icon ✅
 - [x] Project 10 — Routine Widget: 14/14 docs + icon ✅
+- [x] Project 11 — BD Tax & VAT Calc: 14/14 docs + icon ✅
 
 ### 🔄 In Progress
-- [ ] Project 11 — BD Tax & VAT Calc: Deep research → blueprint generation
+- [ ] Project 12 — Minimalist To-Do: Deep research → blueprint generation
 
 ### 📋 Queued (Priority Order)
-- [ ] Project 12 — Minimalist To-Do
 - [ ] Project 13 — Fuel Mileage Log
 - [ ] Project 14 — English-Bangla Vocab (if not already done)
 - [ ] Project 15 — Breathing Pacer
