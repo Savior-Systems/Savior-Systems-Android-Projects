@@ -4,7 +4,7 @@
 
 ### ✅ Completed
 - [x] Project 01 — FocusPulse Timer: 14/14 docs + icon ✅
-- [x] Project 02 — English-Bangla Vocab: 14/14 docs + icon ✅ (placeholder, existed prior)
+- [x] Project 02 — BD Varsity CGPA Pro: 14/14 docs + icon ✅
 - [x] Project 03 — MicroHabit Tracker: 14/14 docs + icon ✅
 - [x] Project 04 — Expense Diary Local: 14/14 docs + icon ✅
 - [x] Project 05 — Prayer Time Helper: 14/14 docs + icon ✅

@@ -4,6 +4,12 @@
 > **Category**: Education · **Target Market**: South Asia (Bangladesh)
 > **Complexity**: 1/5 · **Est. Build**: 3 Days · **Offline**: 100%
 
+## 🎨 App Icon Showcase
+
+![BD Varsity CGPA Pro App Icon](bd_varsity_cgpa_icon.png)
+
+---
+
 Welcome to the design and development blueprint directory for **BD Varsity CGPA Pro** — a lightweight, offline-first CGPA calculator built specifically for Bangladeshi university students. The app ships with pre-loaded grading scales for 17+ public and private universities across Bangladesh (DU, NU, BUET, BRAC, NSU, and more), enabling students to calculate their semester GPA and cumulative CGPA with zero configuration.
 
 ---
