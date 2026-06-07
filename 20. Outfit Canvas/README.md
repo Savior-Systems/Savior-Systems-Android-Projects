@@ -1,11 +1,11 @@
 # Outfit Canvas — Master Index
-`
+```
 ![App Icon](outfit_canvas_icon.png)
-`
+```
 Welcome to the development blueprint directory for **Outfit Canvas**.
-`
+```
 ---
-`
+```
 ## 📂 Documentation Directory Map
 *   [01.PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Personas, closet cataloging, and active ad exclusions.
 *   [02.UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Clay color schemes and typography scales.
@@ -20,11 +20,11 @@ Welcome to the development blueprint directory for **Outfit Canvas**.
 *   [11.GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Asset dimensions and icon layouts.
 *   [12.LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Closet category telemetry without personal identifiers.
 *   [13.BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — Sprints board for code building.
-`
+```
 ---
-`
+```
 ## ☁️ GCP & Firebase API Setup & SOP
 *   **Category**: Level 1 (Telemetry, UMP Consent, and AdMob)
 *   **Core APIs**: `firebase.googleapis.com` (Free Tier)
 *   **SOP**: Link standard session analytics, load default configuration models, and mapping layouts.
-`
+```

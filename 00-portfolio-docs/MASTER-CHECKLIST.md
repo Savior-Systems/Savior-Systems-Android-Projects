@@ -1,11 +1,11 @@
 # Savior Systems: Master Submission Checklist
-`
+```
 This is the ultimate pre-flight quality check that every app in our portfolio must pass before it is pushed to the Google Play Console for internal testing, closed testing, or production.
-`
+```
 ---
-`
+```
 ## 1. Code Quality & Compilation
-`
+```
 *   [ ] App compiles with zero compilation errors and zero compiler warnings under release build configuration.
 *   [ ] Android Lint check reports zero errors (severity: error). All warnings reviewed and marked as clean.
 *   [ ] ProGuard/R8 rules configured (`proguard-rules.pro` included and active).
@@ -16,11 +16,11 @@ This is the ultimate pre-flight quality check that every app in our portfolio mu
 *   [ ] Ensure no unused resources (layouts, drawables, assets) are left in the package. Run `Analyze > Run Inspection by Name > Unused resources`.
 *   [ ] Confirm Kotlin compiler compatibility flags match the Target SDK dependencies.
 *   [ ] Verify that the app starts up from cold state in less than **2.0 seconds** on standard test devices.
-`
+```
 ---
-`
+```
 ## 2. Architecture & MVVM Standard
-`
+```
 *   [ ] Application follows MVVM (Model-View-ViewModel) architecture.
 *   [ ] Views contain only UI elements and no logical expressions or operations.
 *   [ ] ViewModels expose data state using Kotlin read-only StateFlow (i.e. `StateFlow<UiState>`). Do not expose MutableStateFlow.
@@ -28,11 +28,11 @@ This is the ultimate pre-flight quality check that every app in our portfolio mu
 *   [ ] Core data logic encapsulated in Repository classes.
 *   [ ] Room databases use structured DAO layers. Query structures run on background Coroutine dispatchers (e.g. `Dispatchers.IO`).
 *   [ ] Screen transitions and arguments utilize navigation compose structures.
-`
+```
 ---
-`
+```
 ## 3. UI/UX & Design Isolation
-`
+```
 *   [ ] App theme uses a unique color configuration (e.g. Custom light/dark themes mapped in color sets).
 *   [ ] Dark mode support verified on all screens. No text colors are hardcoded to black or white.
 *   [ ] All user-facing strings are defined in `strings.xml`. Hardcoded text is banned.
@@ -43,11 +43,11 @@ This is the ultimate pre-flight quality check that every app in our portfolio mu
 *   [ ] Input screens support clean text validation (e.g., show error on negative inputs or empty values).
 *   [ ] Adaptive Android app icon is verified on stock launchers.
 *   [ ] UI conforms to the Material 3 components guide.
-`
+```
 ---
-`
+```
 ## 4. AdMob Monetization Checks
-`
+```
 *   [ ] AdMob SDK initialized inside Application context on startup.
 *   [ ] Verification test ad unit IDs (`ca-app-pub-3940256099942544/...`) are strictly active during debug configuration.
 *   [ ] Production ad unit IDs are configured to load inside the release version only.
@@ -55,11 +55,11 @@ This is the ultimate pre-flight quality check that every app in our portfolio mu
 *   [ ] Ads do not load immediately over clickable elements (e.g., separated from navigation or action keys).
 *   [ ] Confirm app-ads.txt links match the hosting domain.
 *   [ ] Google UMP (User Messaging Platform) GDPR dialog triggers in European regions.
-`
+```
 ---
-`
+```
 ## 5. Policy & Testing Compliance
-`
+```
 *   [ ] Application has an independent Privacy Policy URL active.
 *   [ ] Target SDK set to 35, Minimum SDK set to 24.
 *   [ ] Google Play Console Data Safety form maps to exactly what SDK modules are embedded (e.g., Firebase, AdMob ID collection).
@@ -67,4 +67,4 @@ This is the ultimate pre-flight quality check that every app in our portfolio mu
 *   [ ] App tested on real devices running Android 10, 12, 14, and 15.
 *   [ ] App tested under slow network simulations to ensure crash-free execution.
 *   [ ] Final App Bundle (`.aab`) signed using upload key prior to testing upload.
-`
+```

@@ -1,11 +1,11 @@
 # Savior Systems: App Idea Matrix
-`
+```
 This document provides a consolidated reference overview mapping the categories, tech requirements, monetization profiles, and keywords for all 30 applications in the portfolio.
-`
+```
 ---
-`
+```
 ## 1. General Portfolio Overview
-`
+```
 | # | App Name | Primary Category | Target Market | Competition Level | Primary Value Proposition |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **01** | FocusPulse Timer | Productivity | Tier-1 Global | Medium-High | Minimalist Pomodoro with built-in custom sound profiles |
@@ -38,11 +38,11 @@ This document provides a consolidated reference overview mapping the categories,
 | **28** | Social Bio Captions | Entertainment | Global | High | Index of bio ideas grouped by categories for copy-paste use |
 | **29** | Auto Text Spammer | Tools | Global | Medium | Loops draft template formats for rapid text input |
 | **30** | Fake Call Rescue | Tools | Global | Medium | Trigger simulated incoming phone layouts with timers |
-`
+```
 ---
-`
+```
 ## 2. Technical Profile & Requirements
-`
+```
 | # | App Name | Est. Build | Complexity | Core Permissions | Storage Database | Offline Support |
 | :--- | :--- | :---: | :---: | :--- | :--- | :---: |
 | **01** | FocusPulse Timer | 4 Days | 2/5 | Notification | DataStore | 100% |
@@ -75,11 +75,11 @@ This document provides a consolidated reference overview mapping the categories,
 | **28** | Social Bio Captions | 3 Days | 1/5 | None | Room DB | 100% |
 | **29** | Auto Text Spammer | 4 Days | 2/5 | None | Room DB | 100% |
 | **30** | Fake Call Rescue | 4 Days | 3/5 | None | None | 100% |
-`
+```
 ---
-`
+```
 ## 3. ASO Strategy Mapping
-`
+```
 | # | App Name | Play Store Title (≤30 chars) | Target Category | Primary ASO Keywords |
 | :--- | :--- | :--- | :--- | :--- |
 | **01** | FocusPulse Timer | FocusPulse Pomodoro Timer | Productivity | pomodoro timer, focus timer, clock |
@@ -112,4 +112,4 @@ This document provides a consolidated reference overview mapping the categories,
 | **28** | Social Bio Captions | Bio Status Captions Creator | Entertainment | instagram bio, fb status captions, bio ideas |
 | **29** | Auto Text Spammer | Auto Text Spammer Loop | Tools | text repeater, spam templates, copy paste loop |
 | **30** | Fake Call Rescue | Fake Call Rescue Simulator | Utilities | mock call, emergency escape, prank call |
-`
+```

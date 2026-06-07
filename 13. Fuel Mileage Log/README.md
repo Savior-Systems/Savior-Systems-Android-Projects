@@ -1,11 +1,11 @@
 # Fuel Mileage Log — Master Index
-`
+```
 ![App Icon](fuel_mileage_icon.png)
-`
+```
 Welcome to the development blueprint directory for **Fuel Mileage Log**.
-`
+```
 ---
-`
+```
 ## 📂 Documentation Directory Map
 *   [01.PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Personas, features, and zero-ad zones.
 *   [02.UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Emerald Green styling, typography, and fonts.
@@ -20,11 +20,11 @@ Welcome to the development blueprint directory for **Fuel Mileage Log**.
 *   [11.GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Asset sizing and store listing details.
 *   [12.LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Non-PII Firebase tracking guidelines.
 *   [13.BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — The task checklists for code building.
-`
+```
 ---
-`
+```
 ## ☁️ GCP & Firebase API Setup & SOP
 *   **Category**: Level 1 (Telemetry, UMP Consent, and AdMob)
 *   **Core APIs**: `firebase.googleapis.com` (Free Tier)
 *   **SOP**: Link standard converter analytics, load app configurations, and mapping configs to Android source build directories.
-`
+```

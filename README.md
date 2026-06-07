@@ -1,13 +1,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/SAVIOR_SYSTEMS-Android_Portfolio-0D47A1?style=for-the-badge&logo=android&logoColor=white" alt="Savior Systems" />
 </p>
-`
+```
 <h1 align="center">Savior Systems — Android Projects</h1>
-`
+```
 <p align="center">
   <strong>High-Velocity Android App Publishing · 30 Apps · One Strategic Blueprint</strong>
 </p>
-`
+```
 <p align="center">
   <img src="https://img.shields.io/badge/Apps-30-brightgreen?style=flat-square" />
   <img src="https://img.shields.io/badge/Stack-Kotlin_%7C_Jetpack_Compose-7F52FF?style=flat-square&logo=kotlin&logoColor=white" />
@@ -15,28 +15,28 @@
   <img src="https://img.shields.io/badge/Design-Material_3-00695C?style=flat-square&logo=material-design&logoColor=white" />
   <img src="https://img.shields.io/badge/Status-Top_20_Docs_&_Icons_Complete-brightgreen?style=flat-square" />
 </p>
-`
+```
 ---
-`
+```
 ## 📌 What Is This Repository?
-`
+```
 This is **not** a code repository. This is the **Master Research & Planning Hub** for Savior Systems' Android portfolio.
-`
+```
 Inside you will find **end-to-end documentation** covering:
-`
+```
 - ✅ Market research and competitive intelligence for **30 Android app concepts**
 - ✅ Portfolio-level monetization strategy (AdMob eCPM targeting across Tier-1 and South Asian markets)
 - ✅ Google Play Console policy guardrails and compliance checklists
 - ✅ Reusable architecture blueprints (shared Kotlin modules, ad wrappers, Room templates)
 - ✅ Developer handoff documents — every app folder contains a full implementation plan, screen specs, ad trigger maps, and ASO keyword lists
 - ✅ Publishing roadmap with staggered closed-testing timelines
-`
+```
 A developer receives this repo and uses it as their **single source of truth** to build, test, and ship all 30 apps to the Google Play Store.
-`
+```
 ---
-`
+```
 ## 🗂️ Repository Structure
-`
+```
 ```
 Savior-Systems-Android-Projects/
 │
@@ -86,9 +86,9 @@ Savior-Systems-Android-Projects/
 │
 └── 📂 .claude/                           ← AI agent configuration (CLAUDE.md, rules, prompts)
 ```
-`
+```
 Each app folder contains its own comprehensive 14-file documentation suite:
-`
+```
 ```
 XX. App Name/
 ├── 01.PRD-REQUIREMENTS.md       ← Persona, user stories, features, and ad exclusions
@@ -106,13 +106,13 @@ XX. App Name/
 ├── 13.BACKLOG-TASKS.md          <-- Five phased development sprints
 └── README.md                    ← Master directory index linking all blueprints
 ```
-`
+```
 ---
-`
+```
 ## 🚀 For Developers — How to Use This Repo
-`
+```
 Follow this sequence **in order**. Do not skip steps.
-`
+```
 ```mermaid
 flowchart LR
     A["1 · Research\nReport"] --> B["2 · Portfolio\nStrategy"]
@@ -123,7 +123,7 @@ flowchart LR
     F --> G["7 · Build with\nTech & Backlog"]
     G --> H["8 · Master\nChecklist ✓"]
 ```
-`
+```
 | Step | Action | Document |
 |:----:|:-------|:---------|
 | **1** | **Understand the big picture.** Read the master research covering market data, eCPM benchmarks, Play Store policy constraints, and the core-and-clone architecture. | [`UNIFIED-RESEARCH-REPORT.md`](UNIFIED-RESEARCH-REPORT.md) |
@@ -134,16 +134,16 @@ flowchart LR
 | **6** | **Read the app's entry point.** The local `README.md` gives you the index to all 13 sub-documents, personas, and visual preview of the app icon. | `XX. App Name/README.md` |
 | **7** | **Follow the technical architecture.** Build layers and components using `04.TECHNICAL-ARCHITECTURE.md` and track tasks using `13.BACKLOG-TASKS.md`. Reference other sub-documents (PRD, schema, ads map) as needed. | `XX. App Name/04.TECHNICAL-ARCHITECTURE.md` |
 | **8** | **Run the master checklist before submitting.** Every app must pass the pre-submission quality gate covering code, policy, ads, ASO, and store listing. | [`MASTER-CHECKLIST.md`](MASTER-CHECKLIST.md) |
-`
+```
 > [!IMPORTANT]
 > **Every app must be built as an isolated project** with its own unique package name, visual identity, color palette, and store listing. Do not copy-paste UI across apps. Read `PLAY-CONSOLE-POLICY-GUARDRAILS.md` for the full anti-clone compliance rules.
-`
+```
 ---
-`
+```
 ## 🏆 Top 12 Priority Apps
-`
+```
 These are the highest-scored apps from our weighted analysis. They should be built **first**, in approximately this order:
-`
+```
 | Rank | App Name | Primary Market | Build Time | Weighted Score |
 |:----:|:---------|:---------------|:----------:|:--------------:|
 | 1 | **FocusPulse Timer** | Global (Tier-1) | 2 days | 7.68 |
@@ -158,16 +158,16 @@ These are the highest-scored apps from our weighted analysis. They should be bui
 | 10 | **Routine Widget** | Global (Tier-1) | 5 days | 7.38 |
 | 11 | **BD Tax & VAT Calc** | South Asia (BD) | 2 days | 7.43 |
 | 12 | **Minimalist To-Do** | Global | 2 days | — |
-`
+```
 > [!TIP]
 > The full 50-concept scored matrix — including reserve and backup apps — is available in [`APP-IDEA-MATRIX.md`](APP-IDEA-MATRIX.md).
-`
+```
 ---
-`
+```
 ## 🛠️ Tech Stack
-`
+```
 All 30 apps share a common technology foundation:
-`
+```
 | Layer | Technology | Purpose |
 |:------|:-----------|:--------|
 | **Language** | Kotlin | Primary development language |
@@ -182,18 +182,18 @@ All 30 apps share a common technology foundation:
 | **Widgets** | Jetpack Glance | Home screen widgets (select apps) |
 | **Build System** | Gradle (Kotlin DSL) | Dependency management, build variants |
 | **Min SDK** | API 24 (Android 7.0) | ~97% device coverage |
-`
+```
 > [!NOTE]
 > **Zero external paid APIs.** Every app is fully offline-capable using local computation, Room caching, and system-level intents. No third-party backend services are required.
-`
+```
 ---
-`
+```
 ## 📅 Publishing Strategy
-`
+```
 Google Play Console requires all new apps from personal developer accounts to pass a **14-day closed testing period** with a minimum of **12 opted-in testers** before production release.
-`
+```
 Our staggered launch plan:
-`
+```
 ```
 Week 1         Build shared core template (AdManager, Consent, Room)
 Week 2         App 01 built → Submit to closed testing ──┐
@@ -203,16 +203,16 @@ Week 4–5       Apps 02, 03, 04 clear → Rolling production launches
 Week 5–8       Continue build-submit-launch pipeline for Apps 05–12
 Week 8+        Reserve apps (13–30) enter the pipeline
 ```
-`
+```
 ```mermaid
-`gantt
+```gantt
     title Staggered Launch Pipeline (Simplified)
     dateFormat  YYYY-MM-DD
     axisFormat  %b %d
-`
+```
     section Core
     Shared Template        :done, core, 2026-06-09, 7d
-`
+```
     section Priority Apps
     App 01 Build           :app01b, after core, 2d
     App 01 Closed Testing  :app01t, after app01b, 14d
@@ -224,14 +224,14 @@ Week 8+        Reserve apps (13–30) enter the pipeline
     App 03 Closed Testing  :app03t, after app03b, 14d
     App 03 Production      :milestone, after app03t, 0d
 ```
-`
+```
 > [!WARNING]
 > **Do not submit multiple apps simultaneously to closed testing from the same account** without staggering by at least 2–3 days. Simultaneous submissions can trigger Google's automated spam review. See [`PUBLISHING-ROADMAP.md`](PUBLISHING-ROADMAP.md) for the full calendar.
-`
+```
 ---
-`
+```
 ## 📊 Project Status
-`
+```
 | Milestone | Status |
 |:----------|:------:|
 | Market Research & Competitive Analysis | ✅ Complete |
@@ -245,15 +245,15 @@ Week 8+        Reserve apps (13–30) enter the pipeline
 | Developer Guide & Onboarding | ✅ Complete |
 | App Development | ⬚ Not Started |
 | Closed Testing & Production Launch | ⬚ Not Started |
-`
+```
 <p align="center">
   <img src="https://img.shields.io/badge/Phase-Top_20_Docs_Complete_·_Scaffolding_Ready-brightgreen?style=for-the-badge" />
 </p>
-`
+```
 ---
-`
+```
 ## 📚 Key Documents Quick Links
-`
+```
 | Document | Description |
 |:---------|:------------|
 | [`UNIFIED-RESEARCH-REPORT.md`](UNIFIED-RESEARCH-REPORT.md) | Master research — market data, eCPMs, policy, architecture |
@@ -267,10 +267,10 @@ Week 8+        Reserve apps (13–30) enter the pipeline
 | [`MASTER-CHECKLIST.md`](MASTER-CHECKLIST.md) | Pre-submission quality gate (code, policy, ads, ASO, listing) |
 | [`DEVELOPER-GUIDE.md`](DEVELOPER-GUIDE.md) | Environment setup, conventions, workflow, testing standards |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution standards, branch naming, commit conventions |
-`
+```
 ---
-`
+```
 <p align="center">
   <sub>Built with 🔥 by <strong>Savior Systems</strong> · 2026</sub>
 </p>
-`
+```

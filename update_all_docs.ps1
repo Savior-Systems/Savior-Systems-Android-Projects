@@ -75,3 +75,11 @@ foreach ($file in $mdFiles) {
 }
 
 Write-Host "[+] Documentation update and path-repair complete!" -ForegroundColor Green
+
+Write-Host "[*] Running Quality Assurance Audit..." -ForegroundColor Yellow
+python scripts/audit_workspace.py
+if ($LASTEXITCODE -ne 0) {
+    Write-Host "[X] Audit Failed! Please fix the errors above before committing." -ForegroundColor Red
+    exit 1
+}
+Write-Host "[+] Quality Assurance Audit Passed!" -ForegroundColor Green
