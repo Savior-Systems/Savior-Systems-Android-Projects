@@ -1,11 +1,11 @@
 # Expense Diary Local — Master Index
-```
+
 Welcome to the design and development blueprint directory for **Expense Diary Local**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
-```
+
 ---
-```
+
 ## 🎯 App Overview
-```
+
 | Attribute | Value |
 | :--- | :--- |
 | **App Name** | Expense Diary Local |
@@ -16,13 +16,13 @@ Welcome to the design and development blueprint directory for **Expense Diary Lo
 | **Primary Color** | `#F1C40F` (Sunflower Gold) |
 | **Secondary Color** | `#7F8C8D` (Concrete Gray) |
 | **Target Keywords** | expense tracker, money manager, budget planner |
-```
+
 ---
-```
+
 ## 📂 Documentation Directory Map
-```
+
 Click on any of the sections below to navigate to the specific blueprint:
-```
+
 | # | Document | Description |
 | :--- | :--- | :--- |
 | 01 | [PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) | Feature list, user stories, personas, and success metrics. |
@@ -38,17 +38,17 @@ Click on any of the sections below to navigate to the specific blueprint:
 | 11 | [GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
 | 12 | [LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) | 9 custom Firebase events, Crashlytics config, and privacy rules. |
 | 13 | [BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) | Phased development backlog with 50+ tasks across 6 phases. |
-```
+
 ---
-```
+
 ## 🖼️ App Icon
-```
+
 ![Expense Diary Local Icon](expense_diary_local_icon.png)
-```
+
 ---
-```
+
 ## 🔑 Key Differentiators
-```
+
 | Feature | Description |
 | :--- | :--- |
 | **100% Offline** | Zero network dependency for core functionality |
@@ -59,32 +59,31 @@ Click on any of the sections below to navigate to the specific blueprint:
 | **Biometric Lock** | PIN + fingerprint/face authentication gate |
 | **Export Anywhere** | CSV, PDF, and encrypted JSON backup/restore |
 | **Privacy Screen** | Auto-blur when app enters background |
-```
+
 ---
-```
+
 ## ☁️ GCP & Firebase API Setup & SOP
-```
+
 ### 1. Required Cloud API Category
 - **Category:** Level 2 (Secure Sync & Cloud Storage backups)
 - **Core APIs:** `firebaseanalytics.googleapis.com`, `crashlytics.googleapis.com`, `admob.googleapis.com`
 - **SOP Implementation:** Firebase Analytics for anonymous telemetry, Crashlytics for crash reporting, AdMob for monetization.
-```
+
 ### 2. Credentials & Config Mapping
 - Place the downloaded `google-services.json` config inside the `app/` directory.
 - Production AdMob Unit IDs are stored in `local.properties` and injected via `buildConfigField`.
 - Production credentials are dynamically configured on launch and kept out of Git repository logs.
-```
+
 ### 3. Firebase Project
 - **Project ID:** `hopeful-breaker-426606-h9`
 - **App ID:** Registered in Firebase Console under the Savior Systems portfolio.
 - **SHA-1/SHA-256:** Debug and release keystores registered for API access.
-```
+
 ---
-```
+
 ## 📊 Status
-```
+
 **Documentation**: ✅ Complete (14/14 files)  
 **Assets**: ✅ App icon generated  
 **Phase**: Ready for Phase 1 scaffolding  
 **Last Updated**: June 2026
-```

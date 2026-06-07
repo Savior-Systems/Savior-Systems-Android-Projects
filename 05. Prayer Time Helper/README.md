@@ -1,11 +1,11 @@
 # Prayer Time Helper — Master Index
-```
+
 Welcome to the design and development blueprint directory for **Prayer Time Helper**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
-```
+
 ---
-```
+
 ## 🎯 App Overview
-```
+
 | Attribute | Value |
 | :--- | :--- |
 | **App Name** | Prayer Time Helper |
@@ -16,13 +16,13 @@ Welcome to the design and development blueprint directory for **Prayer Time Help
 | **Primary Color** | `#00695C` (Deep Emerald Green) |
 | **Secondary Color** | `#1565C0` (Midnight Blue) |
 | **Target Keywords** | prayer time, qibla finder, namaz time bangladesh, azan alarm |
-```
+
 ---
-```
+
 ## 📂 Documentation Directory Map
-```
+
 Click on any of the sections below to navigate to the specific blueprint:
-```
+
 | # | Document | Description |
 | :--- | :--- | :--- |
 | 01 | [PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) | Feature list, personas, and success metrics (focus on South Asia). |
@@ -38,17 +38,17 @@ Click on any of the sections below to navigate to the specific blueprint:
 | 11 | [GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) | Icon specs, screenshot designs, and feature graphic blueprint. |
 | 12 | [LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) | Custom Firebase events, screen tracking, strict PII-free rules. |
 | 13 | [BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) | Phased development backlog across 7 phases + V2 enhancements. |
-```
+
 ---
-```
+
 ## 🖼️ App Icon
-```
+
 ![Prayer Time Helper Icon](prayer_time_helper_icon.png)
-```
+
 ---
-```
+
 ## 🔑 Key Differentiators
-```
+
 | Feature | Description |
 | :--- | :--- |
 | **Offline Calculation** | Timings generated via math (`Adhan` library) rather than APIs. |
@@ -57,31 +57,30 @@ Click on any of the sections below to navigate to the specific blueprint:
 | **South Asia Optimized** | Defaults to Karachi calculation method and Hanafi Asr shadows. |
 | **Reliable Alarms** | `AlarmManager.setExactAndAllowWhileIdle` ensures Azan plays even in Doze mode. |
 | **Respectful Ads** | Interstitials capped at 4 hours. No ads during active prayer countdowns or compass use. |
-```
+
 ---
-```
+
 ## ☁️ GCP & Firebase API Setup & SOP
-```
+
 ### 1. Required Cloud API Category
 - **Category:** Level 1 (Telemetry & Monetization)
 - **Core APIs:** `firebaseanalytics.googleapis.com`, `crashlytics.googleapis.com`, `admob.googleapis.com`
 - **SOP Implementation:** Firebase for tracking setup drop-offs, Crashlytics for monitoring sensor failures, AdMob for non-intrusive revenue.
-```
+
 ### 2. Credentials & Config Mapping
 - Place the downloaded `google-services.json` config inside the `app/` directory.
 - Production AdMob Unit IDs are stored in `local.properties` and injected via `buildConfigField`.
 - Production credentials are dynamically configured on launch.
-```
+
 ### 3. Firebase Project
 - **Project ID:** `hopeful-breaker-426606-h9`
 - **App ID:** Registered in Firebase Console under the Savior Systems portfolio.
-```
+
 ---
-```
+
 ## 📊 Status
-```
+
 **Documentation**: ✅ Complete (14/14 files)  
 **Assets**: ✅ App icon generated  
 **Phase**: Ready for Phase 1 scaffolding  
 **Last Updated**: June 2026
-```
