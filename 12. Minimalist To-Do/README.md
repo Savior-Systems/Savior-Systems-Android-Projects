@@ -1,6 +1,10 @@
 # Minimalist To-Do — Master Index
 
+![App Icon](minimalist_todo_icon.png)
+
 Welcome to the design and development blueprint directory for **Minimalist To-Do**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
+
+---
 
 ## 📂 Documentation Directory Map
 Click on any of the sections below to navigate to the specific blueprint:
@@ -20,17 +24,14 @@ Click on any of the sections below to navigate to the specific blueprint:
 *   [13. BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
 
 ---
-**Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
 
-
----
 ## ☁️ GCP & Firebase API Setup & SOP
 
 ### 1. Required Cloud API Category
-- **Category:** Level 1 (Telemetry, UMP Consent, and AdMob)
-- **Core APIs:** \irebase.googleapis.com\ (Free Tier)
-- **SOP Implementation:** Log ASO conversion metrics, standard analytics telemetry, and initialize UMP consent logs.\
+*   **Category**: Level 1 (Telemetry, UMP Consent, and AdMob)
+*   **Core APIs**: `firebase.googleapis.com` (Free Tier)
+*   **SOP Implementation**: Log ASO conversion metrics, standard analytics telemetry, and initialize UMP consent logs.
 
 ### 2. Credentials & Config Mapping
-- Place the downloaded \google-services.json\ config inside the \pp/\ directory.
-- Production credentials are dynamically configured on launch and kept out of Git repository logs.
+*   Place the downloaded `google-services.json` config inside the `app/` directory.
+*   Production credentials are dynamically configured on launch and kept out of Git repository logs.

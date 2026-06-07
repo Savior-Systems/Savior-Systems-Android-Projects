@@ -14,9 +14,9 @@
 - [x] Project 09 — PDF Compress Lite: 14/14 docs + icon ✅
 - [x] Project 10 — Routine Widget: 14/14 docs + icon ✅
 - [x] Project 11 — BD Tax & VAT Calc: 14/14 docs + icon ✅
+- [x] Project 12 — Minimalist To-Do: 14/14 docs + icon ✅
 
 ### 🔄 In Progress
-- [ ] Project 12 — Minimalist To-Do: Deep research → blueprint generation
 
 ### 📋 Queued (Priority Order)
 - [ ] Project 13 — Fuel Mileage Log
