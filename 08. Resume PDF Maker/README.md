@@ -25,7 +25,7 @@ Click on any of the sections below to navigate to the specific blueprint:
 *   [10. Translations & Localization](10.TRANSLATIONS-LOCALIZATION.md) — Multi-language localization and translation strings.
 *   [11. Graphic Assets Manifest](11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
 *   [12. Logging & Analytics Schema](12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
-*   [13. Development Backlog](13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
+*   [13. Step-By-Step Implementation Guide](13.BACKLOG-TASKS.md) — Exact roadmap for a Rookie Developer.
 
 ---
 

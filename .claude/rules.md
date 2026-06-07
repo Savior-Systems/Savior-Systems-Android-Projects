@@ -16,3 +16,9 @@
   - Never generate single-byte or empty blueprint files.
   - Never execute global regex search-and-replace scripts across the entire workspace to fix minor formatting issues, as it causes severe corruption. Use targeted fixes instead.
   - Always run `.\update_all_docs.ps1` to trigger `scripts/audit_workspace.py`. If the CI/CD audit fails, fix the malformed files immediately.
+- **ROLE STRICTLY LIMITED TO RESEARCH AND ARCHITECTURE DOCUMENTATION**:
+  - This is a **Documentation Project ONLY**. You are acting as the Chief Architect and Deep Researcher.
+  - **DO NOT** scaffold, generate, build, or write actual Android app code (e.g., no `android create`, no writing `.kt`, `.xml`, or `.gradle` files).
+  - Your sole responsibility is to create and perfect the 14 required Markdown (`.md`) files for each app.
+  - These documents must be written specifically for a **Rookie Developer**. They must include highly detailed, step-by-step instructions explaining exactly what to do, what comes after what, where things go, and how functions interact.
+  - The 14 required files for every app are: `README.md` (Main Landing Zone), `01.PRD-REQUIREMENTS.md`, `02.UI-UX-DESIGN-SYSTEM.md`, `03.FUNCTIONAL-FLOWS.md`, `04.TECHNICAL-ARCHITECTURE.md`, `05.DATABASE-SCHEMA.md`, `06.AD-MONETIZATION-MAP.md`, `07.ASO-PLAY-STORE-LISTING.md`, `08.PLAY-POLICY-SAFETY.md`, `09.TESTING-ASSURANCE-PLAN.md`, `10.TRANSLATION-LOCALIZATION.md`, `11.GRAPHIC-ASSET-MANIFEST.md`, `12.LOGGING-ANALYSIS.md`, and `13.STEP-BY-STEP-IMPLEMENTATION-GUIDE.md`.

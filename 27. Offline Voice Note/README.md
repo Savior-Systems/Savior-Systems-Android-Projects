@@ -1,28 +1,26 @@
-# Offline Voice Note Recorder
+# App 27: Offline Voice Note Recorder
 
-**Offline Voice Note Recorder** is a highly optimized, offline-first application targeting the "Productivity" category.
+Welcome to the Documentation Landing Zone for **Offline Voice Note Recorder**. 
 
-## App Overview
-Record audio memos, dictations, and voice notes fully offline without transcription tracking.
+This folder contains the complete, deep-researched architectural blueprint and implementation guide for this application. The documentation is explicitly structured to allow a Rookie Developer to build the app step-by-step from scratch.
 
-## Architecture
-This app utilizes standard Savior Systems Android blueprints:
-- Jetpack Compose
-- Kotlin Coroutines & Flow
-- MVI Architecture
-- Room / DataStore for offline persistence
+## 📚 Documentation Index
 
-## Project Documentation
-Please refer to the numeric blueprint files (`01` through `13`) for detailed architectural, UI/UX, and monetization strategies.
+Please read and follow these documents in sequential order:
 
+1. [**01. Product Requirements Document (PRD)**](./01.PRD-REQUIREMENTS.md)
+2. [**02. UI/UX Design System**](./02.UI-UX-DESIGN-SYSTEM.md)
+3. [**03. Functional Flows & Navigation**](./03.FUNCTIONAL-FLOWS.md)
+4. [**04. Technical Architecture Blueprint**](./04.TECHNICAL-ARCHITECTURE.md)
+5. [**05. Database Schema & Storage**](./05.DATABASE-SCHEMA.md)
+6. [**06. Ad Monetization Map**](./06.ADMOB-MONETIZATION-MAP.md)
+7. [**07. ASO & Play Store Listing**](./07.ASO-PLAY-STORE-LISTING.md)
+8. [**08. Play Policy & Safety**](./08.PLAY-POLICY-SAFETY.md)
+9. [**09. Testing Assurance Plan**](./09.TESTING-ASSURANCE-PLAN.md)
+10. [**10. Translation & Localization**](./10.TRANSLATIONS-LOCALIZATION.md)
+11. [**11. Graphic Asset Manifest**](./11.GRAPHIC-ASSETS-MANIFEST.md)
+12. [**12. Logging & Analysis**](./12.LOGGING-ANALYTICS.md)
+13. [**13. Step-by-Step Implementation Guide**](./13.BACKLOG-TASKS.md)
 
 ---
-## ☁️ GCP & Firebase API Setup & SOP
-
-### 1. Required Cloud API Category
-- **Category:** Level 3 (AI-Powered with Vertex AI Gemini 1.5 Flash)
-- **Core APIs:** \iplatform.googleapis.com\, \irebase.googleapis.com\`n- **SOP Implementation:** Integrate the Vertex AI in Firebase SDK in client. Prompts are defined in \CLOUD-BLUEPRINTS.md\.\
-
-### 2. Credentials & Config Mapping
-- Place the downloaded \google-services.json\ config inside the \pp/\ directory.
-- Production credentials are dynamically configured on launch and kept out of Git repository logs.
+*Note: This is a documentation project. Do not place actual Android source code (like pp/ modules, .kt files, or uild.gradle) in this repository layer.*
