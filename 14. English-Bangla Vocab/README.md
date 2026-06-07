@@ -1,11 +1,11 @@
 # English-Bangla Vocab — Master Index
-
+`
 ![App Icon](english_bangla_vocab_icon.png)
-
+`
 Welcome to the development blueprint directory for **English-Bangla Vocab**.
-
+`
 ---
-
+`
 ## 📂 Documentation Directory Map
 *   [01.PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Persona, offline lookups, and study features.
 *   [02.UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Colors, typography, and card flip gestures.
@@ -20,10 +20,11 @@ Welcome to the development blueprint directory for **English-Bangla Vocab**.
 *   [11.GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic layout sizes and icon parameters.
 *   [12.LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Non-PII Firebase tracking guidelines.
 *   [13.BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — The backlog sprints tracker.
-
+`
 ---
-
+`
 ## ☁️ GCP & Firebase API Setup & SOP
 *   **Category**: Level 1 (Telemetry, UMP Consent, and AdMob)
 *   **Core APIs**: `firebase.googleapis.com` (Free Tier)
 *   **SOP**: Configure Telemetry analytics, mapping asset configs, and local directory directories setups.
+`

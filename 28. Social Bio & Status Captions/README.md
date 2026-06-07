@@ -1,10 +1,10 @@
 # Social Bio & Status Captions — Master Index
-
+`
 Welcome to the design and development blueprint directory for **Social Bio & Status Captions**. This is a documentation-first repository designed to instruct human developers or AI agents on building this application from scratch.
-
+`
 ## 📂 Documentation Directory Map
 Click on any of the sections below to navigate to the specific blueprint:
-
+`
 *   [01. PRD-REQUIREMENTS.md](01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
 *   [02. UI-UX-DESIGN-SYSTEM.md](02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
 *   [03. FUNCTIONAL-FLOWS.md](03.FUNCTIONAL-FLOWS.md) — Screens, backstack routing, and user transitions.
@@ -18,18 +18,18 @@ Click on any of the sections below to navigate to the specific blueprint:
 *   [11. GRAPHIC-ASSETS-MANIFEST.md](11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
 *   [12. LOGGING-ANALYTICS.md](12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
 *   [13. BACKLOG-TASKS.md](13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
-
+`
 ---
 **Status**: Ready for scaffolding. All configuration keys must pull from the root blueprints.
-
-
+``
 ---
 ## ☁️ GCP & Firebase API Setup & SOP
-
+`
 ### 1. Required Cloud API Category
 - **Category:** Level 3 (AI-Powered with Vertex AI Gemini 1.5 Flash)
 - **Core APIs:** \iplatform.googleapis.com\, \irebase.googleapis.com\`n- **SOP Implementation:** Integrate the Vertex AI in Firebase SDK in client. Prompts are defined in \CLOUD-BLUEPRINTS.md\.\
-
+`
 ### 2. Credentials & Config Mapping
 - Place the downloaded \google-services.json\ config inside the \pp/\ directory.
 - Production credentials are dynamically configured on launch and kept out of Git repository logs.
+`

@@ -1,18 +1,18 @@
 # BD Tax & VAT Calc — Master Index
-
+`
 Welcome to the design and development blueprint directory for **BD Tax & VAT Calc**. This is a documentation-first repository designed to instruct developers on building this application from scratch.
-
+`
 ---
-
+`
 ## 🎨 App Icon Showcase
-
+`
 ![BD Tax & VAT Calc App Icon](bd_tax_vat_calc_icon.png)
-
+`
 ---
-
+`
 ## 📂 Documentation Directory Map
 Click on any of the sections below to navigate to the specific blueprint:
-
+`
 *   [01. Product Requirement Document](01.PRD-REQUIREMENTS.md) — Feature list, user stories, and target personas.
 *   [02. UI/UX Design System](02.UI-UX-DESIGN-SYSTEM.md) — Accent colors, layout, and dynamic typography sets.
 *   [03. Functional Flows](03.FUNCTIONAL-FLOWS.md) — Screen transitions, backstack routing, and user flows.
@@ -26,16 +26,17 @@ Click on any of the sections below to navigate to the specific blueprint:
 *   [11. Graphic Assets Manifest](11.GRAPHIC-ASSETS-MANIFEST.md) — Graphic dimensions, icon targets, and custom items.
 *   [12. Logging & Analytics Schema](12.LOGGING-ANALYTICS.md) — Firebase tracker events and metrics rules.
 *   [13. Development Backlog](13.BACKLOG-TASKS.md) — The interactive checkbox backlog for progress tracking.
-
+`
 ---
-
+`
 ## ☁️ GCP & Firebase API Setup & SOP
-
+`
 ### 1. Required Cloud API Category
 - **Category:** Level 1 (Telemetry, UMP Consent, and AdMob)
 - **Core APIs:** `firebase.googleapis.com` (Free Tier)
 - **SOP Implementation:** Log size optimization metrics, standard analytics telemetry, and initialize UMP consent logs.
-
+`
 ### 2. Credentials & Config Mapping
 - Place the downloaded `google-services.json` config inside the `app/` directory.
 - Production credentials are dynamically configured on launch and kept out of Git repository logs.
+`
