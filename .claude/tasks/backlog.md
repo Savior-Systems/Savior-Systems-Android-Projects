@@ -9,12 +9,12 @@
 - [x] Project 04 — Expense Diary Local: 14/14 docs + icon ✅
 - [x] Project 05 — Prayer Time Helper: 14/14 docs + icon ✅
 - [x] Project 06 — Water Log & Remind: 14/14 docs + icon ✅
+- [x] Project 07 — Smart Age & BD Date: 14/14 docs + icon ✅
 
 ### 🔄 In Progress
-- [ ] Project 07 — Smart Age & BD Date: Deep research → blueprint generation
+- [ ] Project 08 — Resume PDF Maker: Deep research → blueprint generation
 
 ### 📋 Queued (Priority Order)
-- [ ] Project 08 — Resume PDF Maker
 - [ ] Project 09 — PDF Compress Lite
 - [ ] Project 10 — Routine Widget
 - [ ] Project 11 — BD Tax & VAT Calc
