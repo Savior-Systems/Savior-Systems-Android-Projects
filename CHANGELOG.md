@@ -29,6 +29,7 @@
 * convert absolute file:/// links to github-compatible relative links across all markdown files ([`a9010e7`](https://github.com/Savior-Systems/Savior-Systems-Android-Projects/commit/a9010e7)) — *2026-06-07*
 
 ## 📝 Documentation Updates
+* **08-resumemaker**: v2.0 offline scale edition — full documentation rewrite ([`8279443`](https://github.com/Savior-Systems/Savior-Systems-Android-Projects/commit/8279443)) — *2026-06-08*
 * **chore**: integrate changelog link in root README.md ([`f099376`](https://github.com/Savior-Systems/Savior-Systems-Android-Projects/commit/f099376)) — *2026-06-08*
 * **chore**: integrate auto-changelog script and pre-commit hook ([`5703297`](https://github.com/Savior-Systems/Savior-Systems-Android-Projects/commit/5703297)) — *2026-06-08*
 * upgrade ASCII flowcharts to native Mermaid diagrams ([`d8c31ab`](https://github.com/Savior-Systems/Savior-Systems-Android-Projects/commit/d8c31ab)) — *2026-06-08*
