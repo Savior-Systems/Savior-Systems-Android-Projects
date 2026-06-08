@@ -267,6 +267,7 @@ gantt
 | [`MASTER-CHECKLIST.md`](MASTER-CHECKLIST.md) | Pre-submission quality gate (code, policy, ads, ASO, listing) |
 | [`DEVELOPER-GUIDE.md`](DEVELOPER-GUIDE.md) | Environment setup, conventions, workflow, testing standards |
 | [`CONTRIBUTING.md`](CONTRIBUTING.md) | Contribution standards, branch naming, commit conventions |
+| [`CHANGELOG.md`](CHANGELOG.md) | Project Changelog — Automatically updated history of commits and updates |
 
 ---
 
